@@ -57,7 +57,7 @@ In this task, you will enable the plan for resources on which diagnostics you wa
 
    ![Picture 1](../media/image_44.png)
 
-1. Select the conenctor of **Microsoft Defender for Cloud** and **Microsoft 365 Defender**, click on install to get the logs into the Sentinel.
+1. Select the conenctor of **Microsoft Defender for Cloud** and **Microsoft 365**, click on install to get the logs into the Sentinel.
 
    ![Picture 1](../media/Sentinel_Install_Defender_Connector_2.png)
 
