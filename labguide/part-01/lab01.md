@@ -24,7 +24,7 @@ In this task, you will create a Log Analytics workspace for use with Microsoft D
     
    ![](../media/image9.png)
 
-1. From the basics tab of the Create Log Analytics workspace, enter the following
+1. From the basics tab of the Create Log Analytics workspace, enter the following and Select **Review + Create**.
 
     | Setting | Action |
     | -- | -- |
@@ -34,9 +34,7 @@ In this task, you will create a Log Analytics workspace for use with Microsoft D
     | Region | leave this default |
     |||
 
-1. Select **Review + Create**.
-
-   ![](../media/Log1.png)
+    ![](../media/Log1.png)
 
 1. Once the workspace validation has passed, select **Create**. Wait for the new workspace to be provisioned, this may take a few minutes.
 
@@ -54,7 +52,7 @@ In this task, you will create Microsoft Sentinel workspace where you will be mon
 
 1. From Add Microsoft Sentinel to a workspace, select **+ Create a new workspace**.
 
-1. From the basics tab of the Create Log Analytics workspace, enter the following
+1. From the basics tab of the Create Log Analytics workspace, enter the following and click **Review + Create**.   
 
     | Setting | Action |
     | -- | -- |
@@ -65,8 +63,6 @@ In this task, you will create Microsoft Sentinel workspace where you will be mon
     |||
 
     ![Picture 1](../media/Log2.png)
-
-1. click **Review + Create**.   
 
 1. Verify the information you entered then select **Create**.
 
