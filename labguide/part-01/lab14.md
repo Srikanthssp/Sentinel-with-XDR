@@ -31,9 +31,7 @@ You are a Security Operations Analyst working at a company that is implementing 
 
 1. Select your Microsoft Sentinel Workspace **sentinelworkspace**.
 
-1. Select the **Data Connectors** under **Configuration** and select **Go to content hub**.
-
-    ![Picture 1](../media/image_34.png)
+1. Select  **Content hub** under **Content management**.
 
 1. On the content hub page search for **Windows security event** and select, Install
 
