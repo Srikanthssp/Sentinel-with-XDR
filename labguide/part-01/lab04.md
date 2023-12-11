@@ -53,10 +53,11 @@ In this task, you will enable the plan for resources on which diagnostics you wa
 ### Task 3: Ingesting data to Sentinel from Microsoft Defender
 
 1. For Microsoft Defender data to ingest to Sentinel you need to use the connectors provided by the Sentinel.
+1. In the search bar, search and select Microsoft Sentinel, select Log analytics which you created in previous lab.
 
    ![Picture 1](../media/image_44.png)
 
-1. Now you need to click on install both the conenctor of Microsoft Defender for Cloud and Microsoft 365 Defender to get the logs into the Sentinel
+1. Select the conenctor of **Microsoft Defender for Cloud** and **Microsoft 365 Defender**, click on install to get the logs into the Sentinel.
 
    ![Picture 1](../media/Sentinel_Install_Defender_Connector_2.png)
 
