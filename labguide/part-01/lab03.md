@@ -22,8 +22,13 @@ In this lab, you will perform the following:
 
 ### Task 1: Preparing the Microsoft Defender workspace
 
-1. Browse for **Microsoft Defender**(https://security.microsoft.com/) portal,
-   **Note**: Close **Your new Office 365 protection home** window popup.
+1. Within Lab VM 1. In the Edge browser, go to the Microsoft Defender portal at (https://security.microsoft.com) with following credentials.
+
+   - Email/Username: <inject key="AzureAdUserEmail"></inject> and then select Next.
+
+   - Password: <inject key="AzureAdUserPassword"></inject> and then select **Sign in**.
+
+      **Note**: Close **Your new Office 365 protection home** window popup.
 
 3. From the left navigation pane, select **Settings**.
 
@@ -39,13 +44,7 @@ In this lab, you will perform the following:
 
 In this task, you will perform the initialization of the Microsoft Defender for the Endpoint portal.
 
-1. If you are not already at the Microsoft Defender portal, start the Microsoft Edge browser.
-
-1. In the Edge browser, go to the Microsoft Defender portal at (https://security.microsoft.com).
-
-1. In the **Sign in** dialog box, copy and paste Email/Username: <inject key="AzureAdUserEmail"></inject> and then select Next.
-
-1. In the **Enter password** dialog box, copy and paste Password: <inject key="AzureAdUserPassword"></inject> and then select **Sign in**.
+1. In Microsoft Defender portal 
 
 1. On the **Microsoft Defender** portal, from the navigation menu, select **Settings** from the left.
 
@@ -62,7 +61,7 @@ In this task, you will perform the initialization of the Microsoft Defender for 
 
 In this task, you will onboard a device to Microsoft Defender for Endpoint using an onboarding script.
 
-1. If you are not already at the Microsoft Defender portal in your browser, start the Microsoft Edge browser go to (https://security.microsoft.com) and log in with the **Tenant Email** credentials.
+1. In Microsoft Defender portal in your browser.
 
 1. Select **Settings** from the left menu bar, then from the Settings page select **Endpoints**.
 
@@ -117,13 +116,7 @@ In this task, you will onboard a device to Microsoft Defender for Endpoint using
 
 In this task, you will configure roles for use with device groups.
 
-1. Sign in to the [Azure portal](https://portal.azure.com).
-
-1. In the **Sign in** dialog box, copy and paste in the **Username** provided in the environment details page (odl_user_DID@xxxxx.onmicrosoft.com) and then select Next.
-
-1. In the **Enter password** dialog box, copy and paste in the Password and then select **Sign in**.
-
-1. On the **Stay signed in?** dialog box, select the Don’t show this again check box and then select **No**.
+1. Navigate back to **Azure Portal** [Azure portal](https://portal.azure.com).
 
 1. In the Search bar of the Azure portal, type **Microsoft Entra ID**, then select Microsoft Entra ID.
 
@@ -145,8 +138,9 @@ In this task, you will configure roles for use with device groups.
 
 1. Select **Create** and click on **Yes**. 
 
-1. Reture back to **Microsoft Defender** portal and from left navigation pane select **Settings**, then select **Endpoints**. 
-   ![](../media/lab3-image(1).png)
+1. Reture back to browser displaying **Microsoft Defender** portal and from left navigation pane select **Settings**, then select **Endpoints**. 
+
+    ![](../media/lab3-image(1).png)
 
 1. Select **Roles** under the permissions area and click on **Ture on roles**.
 
