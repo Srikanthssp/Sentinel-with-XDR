@@ -151,10 +151,12 @@ In this task, you will configure roles for use with device groups.
    ![](../media/lab3-image(1).png)
 
 1. Select **Roles** under the permissions area and click on **Ture on roles**.
-   ![](../media/lab3-image2.png)
+
+    ![](../media/lab3-image1.png)
 
 1. Select **+ Add role**
-   ![](../media/lab3-image3.png)
+ 
+   ![](../media/lab3-image2.png)
 
 1. In the Add role dialog enter the following:
 
@@ -164,6 +166,7 @@ In this task, you will configure roles for use with device groups.
     |Permissions|Select Live Response capabilities - Advanced|
 
 1. Select the **Assigned user groups** by click on next. Select **sg-IT** and then select **Add selected groups**. Make sure it appears under *Azure AD user groups with this role*.
+
    ![](../media/lab3-image4.png)
 
 1. Select **sg-IT** and click on **Submit**, Done. If you receive an error while saving the role, refresh the page and try again.
