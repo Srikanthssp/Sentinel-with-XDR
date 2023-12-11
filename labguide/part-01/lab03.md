@@ -70,6 +70,8 @@ In this task, you will onboard a device to Microsoft Defender for Endpoint using
 
 1. Select **Onboarding** in the Device Management section.
 
+    ![Picture 1](../media/image2-lab3.png)
+
     >**Note:** You can also perform device onboarding from the **Assets** section of the left menu bar. Expand Assets and select Devices. On the Device Inventory page, with Computers & Mobile selected, scroll down to **Onboard devices.** This takes you to the **Settings > Endpoints** page.
 
 1. In the "1. Onboard a device" area make sure "Local Script (for up to 10 devices)" is displayed in the Deployment method drop-down and select the **Download onboarding package** button. 
