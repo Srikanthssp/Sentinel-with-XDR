@@ -110,11 +110,11 @@ In this task, you will create a new workbook with advanced visualizations.
 
 1. Select the **Make this item a custom width** box and set the *Percent width* to **25** and *Maximum width* to **25**.
 
-    ![Picture 1](../media/lab16-image8.png)
+    ![Picture 1](../media/lab16-image9.png)
 
 1. Now select **Advanced Settings** tab from the query's command bar and select **Show refresh icon when not editing** box, scroll down and select **Done Editing** on the bottom menu, 
 
-    ![Picture 1](../media/lab16-image9.png)
+    ![Picture 1](../media/lab16-image10.png)
 
 1. Scroll down and at the bottom of the workbook select **+ Add**, then **Add query**.
 
