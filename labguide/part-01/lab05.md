@@ -48,7 +48,7 @@ In this task, you will explore ingesting logs from Microsoft Defender for Cloud.
 
 1. In Azure portal search and select **Microsoft Sentinel** and click on **sentinelworkspace**, for Microsoft Defender data to ingest to Sentinel you need to use the connectors provided by the Sentinel.
 
-1. From the left navigation pane select **Data connectors** under **Configuration** section.
+1. From the left navigation pane select **Data connectors** under **Configuration** section and click on **Go to content hub**.
    ![Picture 1](../media/image_44.png)
 
 1. Search and select the Microsoft Defender for Endpoint and click on install to get the logs into the Sentinel.
