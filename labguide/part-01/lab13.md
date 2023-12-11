@@ -12,7 +12,7 @@ In this lab, you will complete the following task:
 
 ## Task 1:  Using Sentinel Training Lab 
 
-1. In Microsoft Sentinel, select the **Content hub** option in the *Content management* area.
+1. In Azure portal search and select Microsoft Sentinel **sentinelworkspace**, select the **Content hub** option in the *Content management* area.
 
 1. From the Microsoft Sentinel page, search **Training Lab**, Select the **Microsoft Sentinel Training Lab**, click **Install**.
    
@@ -22,7 +22,7 @@ In this lab, you will complete the following task:
    
    ![Picture 1](../media/image_36.png)
 
-1. In the Basics tab, select the Subscription, Resource Group and Workspac, provide the details for your existing workspace. *Optionally*, review the different tabs (Workbooks, Analytics, Hunting Queries, Watchlists, Playbooks) in the solution. click on **Review + create**.
+1. In the Basics tab, select the Subscription, Resource Group and select **sentinelworkspace**, provide the details for your existing workspace. *Optionally*, review the different tabs (Workbooks, Analytics, Hunting Queries, Watchlists, Playbooks) in the solution. click on **Review + create**.
 
    ![Picture 1](../media/image_38.png)
 
