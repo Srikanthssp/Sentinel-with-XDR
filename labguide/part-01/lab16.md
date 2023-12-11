@@ -140,11 +140,9 @@ In this task, you will create a new workbook with advanced visualizations.
 
 1. Select **Done Editing** in Workbook's top command bar.
 
-1. Select the **Save** icon, change the *Title* to **My Workbook**.
-
-1. Select your resource group if needed and leave other values as default.
-
-1.  Select **Apply** to commit the changes. 
+1. Select the **Save** icon, change the *Title* to **My Workbook** and Select your resource group, click on **Apply** to commit the changes. 
+ 
+    ![Picture 1](../media/lab16-image11.png)
 
 1. Close the workbook by selecting the **X** at the top-right or select **Workbooks** in the Microsoft Sentinel portal.
 
