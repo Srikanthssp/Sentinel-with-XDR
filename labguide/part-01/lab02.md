@@ -34,7 +34,7 @@ In this task, you will enable and configure Microsoft Defender for Cloud.
 
     ![](../media/image_49.png)
 
-1. Review the monitoring extensions ,Confirm that **Log Analytics agent/Azure Monitor agent** is **Off** and  If **Log Analytics agent/Azure Monitor agent** is **On** 
+1. Review the monitoring extensions ,Confirm that **Log Analytics agent/Azure Monitor agent** is **Off** and  If **sentinelworkspace** is **On** 
    then change to **Off**. Press continue on the top of right side
    
    ![](../media/image6.png)
