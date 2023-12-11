@@ -37,7 +37,6 @@ In this task, you will enable and configure Microsoft Defender for Cloud.
 1. Review the monitoring extensions ,Confirm that **Log Analytics agent/Azure Monitor agent** is **Off** and  If **Log Analytics agent/Azure Monitor agent** is **On** 
    then change to **Off**. Press continue on the top of right side
    
-
    ![](../media/image6.png)
     
 1. Back on **Settings | Defender plans** blade and click on **Save**.
@@ -46,12 +45,12 @@ In this task, you will enable and configure Microsoft Defender for Cloud.
 
 1. Select the Log Analytics workspace you created earlier *LogAnalytics-workspace-*** to review the available options and pricing.
 
-1. Select **Enable all plans** for  services (**servers**) which you want to onboard (to the right of Select Defender plan) and then select **Save**. Wait for the *"Microsoft Defender plan for workspace LogAnalytics-workspace-*** was saved successfully!"* notification to appear.
+1. Select **Enable all plans** for  services (**servers**) which you want to onboard (to the right of Select Defender plan) and then select **Save**. Wait for the **"Microsoft Defender plan for workspace LogAnalytics-workspace- was saved successfully!"** notification to appear.
 
    ![](../media/image_4.png)
 
    >**Note:** If the page is not being displayed, refresh your Edge browser and try again and if Plans are already enable no need to change anything.
-
+   >**Note:** Skip this step if services already enabled
 1. Close the Defender plans page by selecting the 'X' on the upper right of the page to go back to the **Environment settings**
 
 ## Review
