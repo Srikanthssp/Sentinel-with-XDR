@@ -69,22 +69,28 @@ In this task, you will save the Microsoft Sentinel workbook templates.
 
 In this task, you will create a new workbook with advanced visualizations.
 
-1. You should be back at the **Workbooks** area of the Microsoft Sentinel portal.
-
-1. Select **+ Add workbook** to create a new workbook from scratch. 
+1. You should be back at the **Workbooks** and select **+ Add workbook** to create a new workbook from scratch.
+ 
+    ![Picture 1](../media/lab16-image1.png)
 
     >**Note:** Although it is a new workbook, a startup template is used.
 
 1. To edit the workbook, select **Edit**.
 
-1. Select the **Edit** button below the new workbook
-overview of the workbook.
+    ![Picture 1](../media/lab16-image2.png)
 
-1. Type *# My workbook* in a new line on top of *## New workbook*.
+1. Select the **Edit** button below the new workbook overview of the workbook.
 
-1. Select **Done Editing** on the bottom of this section, *Editing text item: text - 2*. Notice that your header increased in size and name changed.
+   ![Picture 1](../media/lab16-image3.png)
+
+1. Type *# My workbook* in a new line on top of *## New workbook* and select **Done Editing** on the bottom of this section, *Editing text item: text - 2*. Notice that 
+   your header increased in size and name changed.
+
+    ![Picture 1](../media/lab16-image4.png)
 
 1. Select **Edit** below the only visible bar chart graph.
+
+    ![Picture 1](../media/lab16-image5.png)
 
 1. Review the KQL statement that provides a *union* statement of counts across all tables.
 
@@ -92,25 +98,23 @@ overview of the workbook.
 
 1. Select the ellipsis **...** next to the *Edit* button of the bar chart graph, then select **+ Add**, then select **Add query**.
 
+    ![Picture 1](../media/lab16-image6.png)
+
 1. Type **SecurityEvent** into the query box.
 
-1. Change the *Time Range* to **Last hour**.
+    ![Picture 1](../media/lab16-image7.png)
+  
+1. Change the *Time Range* to **Last hour and  *Visualization* to **Time chart** and select the **Style** tab from the query's command bar.
 
-1. Change the *Visualization* to **Time chart**.
+   ![Picture 1](../media/lab16-image8.png)
 
-1. Select the **Style** tab from the query's command bar.
+1. Select the **Make this item a custom width** box and set the *Percent width* to **25** and *Maximum width* to **25**.
 
-1. Select the **Make this item a custom width** box.
+    ![Picture 1](../media/lab16-image8.png)
 
-1. Set the *Percent width* to **25** and *Maximum width* to **25**.
+1. Now select **Advanced Settings** tab from the query's command bar and select **Show refresh icon when not editing** box, scroll down and select **Done Editing** on the bottom menu, 
 
-    ![Picture 1](../media/image_22.png)
-
-1. Now select **Advanced Settings** tab from the query's command bar.
-
-1. Select **Show refresh icon when not editing** box. 
-
-1. Scroll down and select **Done Editing** on the bottom menu, for the new *Editing query item: query - 2*.
+    ![Picture 1](../media/lab16-image9.png)
 
 1. Scroll down and at the bottom of the workbook select **+ Add**, then **Add query**.
 
