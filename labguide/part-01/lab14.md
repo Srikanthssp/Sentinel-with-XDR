@@ -29,7 +29,7 @@ You are a Security Operations Analyst working at a company that is implementing 
 
      ![Picture 1](../media/image_7.png)  
 
-1. Select your Microsoft Sentinel Workspace.
+1. Select your Microsoft Sentinel Workspace **sentinelworkspace**.
 
 1. Select the **Data Connectors** under **Configuration** and select **Go to content hub**.
 
