@@ -86,10 +86,15 @@ In this task, you will onboard a device to Microsoft Defender for Endpoint using
 
     ![Picture 1](../media/sc200-mod2-unblock.png)
 
-1. Right-click on the extracted file **WindowsDefenderATPLocalOnboardingScript.cmd** again and choose **Run as Administrator**.  **Hint:** If you encounter the Windows SmartScreen window, select on **More info**, and choose **Run anyway**. 
+1. Right-click on the extracted file **WindowsDefenderATPLocalOnboardingScript.cmd** again and choose **Run as Administrator**.
+   **Hint:** If you encounter the Windows SmartScreen window, select on **More info**, and choose **Run anyway**. 
     
-1. When the "User Account Control" window is shown, select **Yes** to allow the script to run and answer **Y** to the question presented by the script and press **Enter**. When complete you should see a message in the command screen that says *Successfully onboarded machine to Microsoft Defender for Endpoint*.
+1. If **User Account Control** window is prompted, select **Yes** to allow the script to run.
 
+1. Enter **Y** to the question presented by the script and press **Enter**. When complete you should see a message in the command screen that says *Successfully onboarded machine to Microsoft Defender for Endpoint*.
+
+   ![Picture 1](../media/image6-lab3.png)
+   
 1. Press any key to continue. This will close the Command Prompt window.
 
     ![Picture 1](../media/SC-200-img25.png)
