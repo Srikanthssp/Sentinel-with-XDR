@@ -24,15 +24,19 @@ In this task, you will create a Log Analytics workspace for use with Microsoft D
     
    ![](../media/image9.png)
 
-1. Select Resource Group from the drop down(sentinel-rg).
+1. From the basics tab of the Create Log Analytics workspace, enter the following
 
-1. For the Name, enter something unique like **uniquenameDefender**.
-
-1. Select the default Region. 
+    | Setting | Action |
+    | -- | -- |
+    | Subscription |  **Select the given subscription (1)**  |
+    | Resource group | select ResourceGroup(sentinel-rg) |
+    | Name | **LogAnalyticsworkspaces** |
+    | Region | leave this default |
+    |||
 
 1. Select **Review + Create**.
 
-   ![](../media/image10.png)
+   ![](../media/Log1.png)
 
 1. Once the workspace validation has passed, select **Create**. Wait for the new workspace to be provisioned, this may take a few minutes.
 
@@ -55,20 +59,20 @@ In this task, you will create Microsoft Sentinel workspace where you will be mon
     | Setting | Action |
     | -- | -- |
     | Subscription |  **Select the given subscription (1)**  |
-    | Resource group | select ResourceGroup |
-    | Name | LogAnalytics-workspace-<inject key="DeploymentID" enableCopy="false"/>** |
+    | Resource group | select ResourceGroup(sentinel-rg) |
+    | Name | sentinelworkspace |
     | Region | leave this default |
     |||
 
-    ![Picture 1](../media/image1-lab7.png)
+    ![Picture 1](../media/Log2.png)
 
 1. click **Review + Create**.   
 
 1. Verify the information you entered then select **Create**.
 
-1. If you don’t see the new workspace listed, select **Refresh**, then select newly created workspace **LogAnalytics-workspace-<inject key="DeploymentID" enableCopy="false"/> (1)** and click on **Add (2)**.
+1. If you don’t see the new workspace listed, select **Refresh**, then select newly created workspace **sentinelworkspace** and click on **Add**.
 
-   ![Picture 1](../media/image2-lab(7).png)
+   ![Picture 1](../media/Log3.png)
 
 1. Once the new workspace is added, the Microsoft Sentinel | News & guides page will display., including that the Microsoft Sentinel free trial is activated. Select **OK**  Note the three steps listed on the Get started page.
 
