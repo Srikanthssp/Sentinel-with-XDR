@@ -20,7 +20,7 @@ In this task, you will explore the Microsoft Sentinel .
 
      ![Picture 1](../media/image_7.png)
 
-2. Select your Microsoft Sentinel Workspace.
+2. Select your Microsoft Sentinel Workspace **sentinelworkspace**.
 
 3. Select the **Data Connectors** under **Configuration** and select **Go to content hub**.
 
