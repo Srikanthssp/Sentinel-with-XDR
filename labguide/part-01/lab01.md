@@ -1,16 +1,16 @@
-## Part:1 Lab 01 - Enable Microsoft Defender for Cloud
+## Lab 01 - Setup Sentinel Environment
 
-## Lab scenario
- You are a Security Operations Analyst working at a company that is implementing Microsoft 365 Defender. You start by assigning preset security policies in EOP and Microsoft Defender for Office 365.
+## Overview
+ You are a Security Operations Analyst working at a company . You will start creating a Log Analytics workspace which is a unique environment for log data from Azure Monitor and other Azure services, such as Microsoft Sentinel and Microsoft Defender for Cloud. You will also create Microsoft Sentinel instance to
 
 ## Lab objectives ( Duration: 30 minutes)
 In this lab, you will complete the following tasks:
 - Task 1: Create a Log Analytics Workspace
-- Task 2: Enable Microsoft Defender for Cloud
+- Task 2: Create Sentinel Workspace
 
 ## Architecture Diagram
 
-  ![Picture 1](../media/part1lab01.png)
+![](../media/Lab-1%20arch1.JPG)
 
 ### Task 1: Create a Log Analytics Workspace
 
@@ -24,11 +24,11 @@ In this task, you will create a Log Analytics workspace for use with Microsoft D
     
    ![](../media/image9.png)
 
-1. Select Resource Group from the drop down(Sentinel-rg).
+1. Select Resource Group from the drop down(sentinel-rg).
 
 1. For the Name, enter something unique like **uniquenameDefender**.
 
-1. Select the default Region 
+1. Select the default Region. 
 
 1. Select **Review + Create**.
 
@@ -38,51 +38,47 @@ In this task, you will create a Log Analytics workspace for use with Microsoft D
 
    ![](../media/image11.png)
 
-### Task 2: Enable Microsoft Defender for Cloud
+### Task 2: Create Sentinel Workspace
 
-In this task, you will enable and configure Microsoft Defender for Cloud.
+In this task, you will create Microsoft Sentinel workspace where you will be monitoring and analyzing security events in upcoming labs.
 
-1. In the Search bar of the Azure portal, type *Defender*, then select **Microsoft Defender for Cloud**.
+1. In the Azure portal, in the **Search Bar** search for **Microsoft Sentinel** then select **Microsoft Sentinel** from the search results. 
 
-   ![](../media/image1.png)
+   ![Picture 1](../media/image_7.png)
 
-1. Click the left menu and click on **Getting started**. On the **Getting Started** page, under the **Upgrade** tab, make sure your subscription is selected and then select the **Upgrade** button at the bottom of the page. It takes about 2 minutes.
+1. From the Microsoft Sentinel page, select **+ Create**.
 
-    ![](../media/image_60.png)
+1. From Add Microsoft Sentinel to a workspace, select **+ Create a new workspace**.
 
-1. In the left menu for Microsoft Defender for Cloud, under Management, select **Environment settings**.
+1. From the basics tab of the Create Log Analytics workspace, enter the following
 
-   ![](../media/image_1.png)
+    | Setting | Action |
+    | -- | -- |
+    | Subscription |  **Select the given subscription (1)**  |
+    | Resource group | select ResourceGroup |
+    | Name | LogAnalytics-workspace-<inject key="DeploymentID" enableCopy="false"/>** |
+    | Region | leave this default |
+    |||
+
+    ![Picture 1](../media/image1-lab7.png)
+
+1. click **Review + Create**.   
+
+1. Verify the information you entered then select **Create**.
+
+1. If you don’t see the new workspace listed, select **Refresh**, then select newly created workspace **LogAnalytics-workspace-<inject key="DeploymentID" enableCopy="false"/> (1)** and click on **Add (2)**.
+
+   ![Picture 1](../media/image2-lab(7).png)
+
+1. Once the new workspace is added, the Microsoft Sentinel | News & guides page will display., including that the Microsoft Sentinel free trial is activated. Select **OK**  Note the three steps listed on the Get started page.
+
+   ![Picture 1](../media/image_8.png)
    
-1. Select the subscription (or equivalent name in your Language). 
+   ![Picture 1](../media/image_9.png)
 
-    ![](../media/image(4).png)
-
-1. Review the Azure resources that are now protected with the Defender for Cloud plans.
-
-1. Select the **Settings & monitoring** tab from the Settings area (next to Save).
-
-   ![](../media/image_5.png)
-
-1. Review the monitoring extensions. Confirm that **Log Analytics agent/Azure Monitor agent** is **Off**. Close the Settings & monitoring page by selecting the 'X' on the upper right of the page.
-   > **Note:** If **Log Analytics agent/Azure 
- Monitor agent** is **On** then change to **Off**. Press continoue on the top of right side.
-
-   ![](../media/image6.png)
-    
-1. To go back to the **Environment settings** and select the '>' to the left of your subscription.
-
-1. Select the Log Analytics workspace you created earlier *uniquenameDefender* to review the available options and pricing.
-
-1. Select **Enable all plans** for  services (**servers**) which you want to onboard (to the right of Select Defender plan) and then select **Save**. Wait for the *"Microsoft Defender plan for workspace uniquenameDefender was saved successfully!"* notification to appear.
-
-   ![](../media/image_4.png)
-
-   >**Note:** If the page is not being displayed, refresh your Edge browser and try again and if Plans are already enable no need to change anything.
-
-1. Close the Defender plans page by selecting the 'X' on the upper right of the page to go back to the **Environment settings**
+1. Keep this page open, as you will use it in the next task.
 
 ## Review
 In this lab, you will complete the following tasks:
 - Create a Log Analytics Workspace
-- Enable Microsoft Defender for Cloud
+- Create Sentinel Workspace
