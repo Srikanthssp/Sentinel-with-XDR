@@ -147,22 +147,28 @@ In this task, you will configure roles for use with device groups.
 
 1. Select **Create** and click on **Yes**. 
 
-1. In the Microsoft Defender portal select **Settings** from the left menu bar, then select **Endpoints**. 
+1. Reture back to **Microsoft Defender** portal and from left navigation pane select **Settings**, then select **Endpoints**. 
+   ![](../media/lab3-image(1).png)
 
-1. Select **Roles** under the permissions area.
+1. Select **Roles** under the permissions area and click on **Ture on roles**.
+   ![](../media/lab3-image2.png)
 
-1. Select **+ Add Role**. by clicking three dots
+1. Select **+ Add role**
+   ![](../media/lab3-image3.png)
 
 1. In the Add role dialog enter the following:
 
     |General setting|Value|
     |---|---|
     |Role name|**Tier 1 Support**|
-    |Permissions|Live Response capabilities - Advanced|
+    |Permissions|Select Live Response capabilities - Advanced|
 
 1. Select the **Assigned user groups** by click on next. Select **sg-IT** and then select **Add selected groups**. Make sure it appears under *Azure AD user groups with this role*.
+   ![](../media/lab3-image4.png)
 
-1. Select **Submit** and Done. If you receive an error while saving the role, refresh the page and try again.
+1. Select **sg-IT** and click on **Submit**, Done. If you receive an error while saving the role, refresh the page and try again.
+
+   ![](../media/lab3-image5.png)
 
 ### Task 5: Configure Device Groups
 
@@ -170,32 +176,44 @@ In this task, you will configure device groups that allow for access control and
 
 1. In the Microsoft Defender portal select **Settings** from the left menu bar, then select **Endpoints**. 
 
-1. Select **Device groups** under the permissions area.
-
-1. Select **+ Add device group** icon.
-
-1. Enter the following information on the General tab:
+1. Select **Device groups** under the permissions area and click on  **+ Add device group** icon.
+   
+   ![](../media/lab3-image6.png)
+   
+1. Enter the following information on the General tab and click on **Next**.
 
     |General setting|Value|
     |---|---|
     |Device group name|**Regular**|
     |Remediation level| Full-remediate threats automatically|
+    |||
 
-1. Select **Next**.
+   ![](../media/lab3-image7.png)
+
 
 1. On the Devices tab, for the OS condition select **Windows 10** and select **Next**.
 
+  ![](../media/lab3-image8.png)
+
 1. On the Preview devices tab, select **Next**.
+
+    ![](../media/lab3-image9.png)
 
 1. For the User access tab, select **sg-IT** and then select **Add selected groups** button. Make sure it appears under **Azure AD user groups with access to this device group**.
 
-1. Select **submit**
+   ![](../media/lab3-image10.png)
+
+1. Select **sg-IT** and click on **submit**
+
+   ![](../media/lab3-image11.png)
 
 1. Select **Done**.
 
 1. Device group configuration has changed. Select **Apply changes** to check matches and recalculate groupings.
 
 1. You are going to have two device groups now; the **Regular** you just created and the **Ungrouped devices (default)** with the same remediation level.
+
+   ![](../media/lab3-image12.png)
 
 ## Review
 In this lab, you will perform the following:
