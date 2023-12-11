@@ -46,15 +46,18 @@ In this task, you will explore ingesting logs from Microsoft Defender for Cloud.
 
 ### Task 3: Ingesting data to Sentinel from Microsoft Defender for Endpoint 
 
-1. For Microsoft Defender data to ingest to Sentinel you need to use the connectors provided by the Sentinel.
+1. In Azure portal search and select **Microsoft Sentinel** and click on **sentinelworkspace**, for Microsoft Defender data to ingest to Sentinel you need to use the connectors provided by the Sentinel.
 
+1. From the left navigation pane select **Data connectors** under **Configuration** section.
    ![Picture 1](../media/image_44.png)
 
-1. Now you need to click on install the Microsoft Defender for Endpoint to get the logs into the Sentinel
+1. Search and select the Microsoft Defender for Endpoint and click on install to get the logs into the Sentinel.
 
    ![Picture 1](../media/image_51.png)
 
-1. Now you need to setup a analytics rule to get alerts as a incident in the Sentinel. Click on **Analytics** and search for *Microsoft Defender for Endpoint* under *Rule templates* select and **Create rule**.
+1. Back on **Microsoft Sentinel | Data connectors** page and from left navigation pane select **Analytics** under **Configuration** section.
+
+1. Click on **Analytics** under **Configuration** section, to setup a analytics rule to get alerts as a incident in the Sentinel and search for *Microsoft Defender for Endpoint* under *Rule templates* select and **Create rule**.
    
    ![Picture 1](../media/image_52.png)
 
