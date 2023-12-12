@@ -52,7 +52,7 @@ In this task, you will perform the initialization of the Microsoft Defender for 
 
     ![Picture 1](../media/SC200-img1.png)
 
-    >**Note:** If you do not see the **Device discovery** option under **Settings**, log out by selecting the top-right circle with your account initials and select **Sign out**. Other options that you might want to try are to refresh the page, wait for 20-25 minutes or open the page InPrivate. Login again with the **Tenant Email** credentials.
+    >**Note:** If you do not see the **Device discovery** option under **Settings**, it may take  1 - 2 hours to reflect so procced with next task and come back after performing next tasks and log out by selecting the top-right circle with your account initials and select **Sign out** and **Sign in** perfoem the task 
 
 1. In the Discovery setup make sure **Standard discovery (recommended)** is selected. 
     >**Hint:** If you do not see the option, refresh the page.
@@ -144,6 +144,8 @@ In this task, you will configure roles for use with device groups.
 
 1. Select **Roles** under the permissions area and click on **Ture on roles**.
 
+   >**Note**: Please proceed with your tasks without waiting. It may take 1 - 2 hours to reflect, kindly procced with tasks and come return after completing all the labs and perform this task.
+   
     ![](../media/lab3-image1.png)
 
 1. Select **+ Add role**
@@ -168,6 +170,8 @@ In this task, you will configure roles for use with device groups.
 ### Task 5: Configure Device Groups
 
 In this task, you will configure device groups that allow for access control and automation configuration.
+
+ >**Note**: Please proceed with your tasks without waiting. It may take 1 - 2 hours to reflect, kindly procced with tasks and come return after completing all the labs and perform this task.
 
 1. In the Microsoft Defender portal select **Settings** from the left menu bar, then select **Endpoints**. 
 
