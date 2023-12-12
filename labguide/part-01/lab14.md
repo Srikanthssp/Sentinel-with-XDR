@@ -29,11 +29,9 @@ You are a Security Operations Analyst working at a company that is implementing 
 
      ![Picture 1](../media/image_7.png)  
 
-1. Select your Microsoft Sentinel Workspace.
+1. Select your Microsoft Sentinel Workspace **sentinelworkspace**.
 
-1. Select the **Data Connectors** under **Configuration** and select **Go to content hub**.
-
-    ![Picture 1](../media/image_34.png)
+1. Select  **Content hub** under **Content management**.
 
 1. On the content hub page search for **Windows security event** and select, Install
 
@@ -51,7 +49,7 @@ You are a Security Operations Analyst working at a company that is implementing 
 
 1. Click on apply changes now if you refresh the data connector page you can see the status connected for **Security events Via Legacy agent**
 
-### Task 2: Enable Microsoft Defender for Cloud
+### Task 2: Enable Microsoft Defender for Cloud (Skip if already done)
 
 In this task, you will enable and configure Microsoft Defender for Cloud.
 

@@ -37,7 +37,7 @@ In this task, you will create a watchlist in Microsoft Sentinel.
 
 1. In Microsoft Sentinel, On the left menu, select the **Watchlist** option under the Configuration area.
 
-1. Select **+ Add new** from the command bar.
+1. Select **+ New** from the command bar.
 
 1. In the Watchlist wizard, enter the following:
 
@@ -45,7 +45,7 @@ In this task, you will create a watchlist in Microsoft Sentinel.
     |---|---|
     |Name|**HighValueHosts**|
     |Description|**High Value Hosts**|
-    |Watchlist alias|**HighValueHosts**|
+    |Alias|**HighValueHosts**|
 
 1. Select, **Next: Source >**.
 
