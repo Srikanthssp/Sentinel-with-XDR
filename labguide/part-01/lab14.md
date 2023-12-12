@@ -49,7 +49,7 @@ You are a Security Operations Analyst working at a company that is implementing 
 
 1. Click on apply changes now if you refresh the data connector page you can see the status connected for **Security events Via Legacy agent**
 
-### Task 2: Enable Microsoft Defender for Cloud
+### Task 2: Enable Microsoft Defender for Cloud (Skip if already done)
 
 In this task, you will enable and configure Microsoft Defender for Cloud.
 
