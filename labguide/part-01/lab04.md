@@ -16,13 +16,13 @@ In this lab, you will complete the following tasks:
 
 In this task, you will explore ingesting logs from Microsoft Defender for Cloud.
 
-1. In the Search bar of the Azure portal, type *Defender*, then select **Microsoft Defender for Cloud**.
+1. On Azure Portal page, in **Search resources, services and docs (G+/)** box at the top of the portal, enter **Microsoft Defender for Cloud**, and then select **Microsoft Defender for Cloud** under services.
 
-1. From Defender for Cloud's menu, select Environment settings and select the subscription.
+1. From **Microsoft Defender for Cloud | Overview** blade, under **Management** section select **Environment settings** and click on the **subscription**.
 
      ![Picture 1](../media/image_50.png)
 
-1. Click on *Defender Plans* on left blade. Then you need to click on *Settings&Monitoring* inbetween the page at top left.
+1. Click on **Defender Plans** on left blade, then click on **Settings&Monitoring** inbetween the page at top left.
 
     ![](../media/image_49.png)
 
@@ -32,19 +32,25 @@ In this task, you will explore ingesting logs from Microsoft Defender for Cloud.
 
    ![Picture 1](../media/Log_Analytics_Enable_1.png)
 
-1. Select **Custom Workspace** then select your workspace Click on **Apply** then **Continue** and click on **Save**.
+1. When **Auto-provisioning configuration** window opens, select **Custom Workspace** then select your workspace **sentinelworkspace**, click on **Apply** then **Continue**.
 
    ![Picture 1](../media/image_42.png)
 
+1. Back **Settings | Defender plans** and click on **Save**.
+   
 ### Task 2: Enabling Plan of Defender for resources
 
 In this task, you will enable the plan for resources on which diagnostics you want to be setup.
 
 1. Enable Microsoft Defender for Cloud on the workspace on which you're installing the Log Analytics agent:
 
-1. From Defender for Cloud's menu, open environment settings.
+1. From **Microsoft Defender for Cloud | Overview** blade, under **Management** section select **Environment settings**.
 
-1. Set the workspace on which you're installing the agent. Make sure the workspace is in the same subscription you use in Defender for       Cloud and that you have read/write permissions for the workspace.
+1. Expand **Subscription** and select the workspace **sentinelworkspace**.
+
+    ![Picture 1](../media/dd5.png)
+
+1. Set the workspace on which you're installing the agent. Make sure the workspace is in the same subscription you use in Defender for Cloud and that you have read/write permissions for the workspace.
 
 1. Select one or both **Servers** or **SQL servers on machines** (Foundational CSPM is the free default), and then select **Save**.
 
