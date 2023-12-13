@@ -19,17 +19,17 @@ In this task, you will explore the Microsoft Sentinel .
 
      ![Picture 1](../media/image_7.png)
 
-2. Select **sentinelworkspace**.
+1. Select **sentinelworkspace**.
 
-3. Select the **Data Connectors** under **Configuration** and select **Go to content hub**.
+1. Select the **Data Connectors** under **Configuration** and select **Go to content hub**.
 
      ![Picture 1](../media/image_44.png)
 
-5. Search for and select the **Microsoft Entra ID** connector. Select the AD connector.
+1. Search for and select the **Microsoft Entra ID** connector. Select the AD connector.
 
    ![Picture 1](../media/image_45.png)
 
-6. Click on **Install**.
+1. Click on **Install**.
 
 1. Back on **Microsoft Sentinel | Data connectors** page and from left navigation pane select **Analytics** under **Configuration** section.
    
