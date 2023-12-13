@@ -18,7 +18,7 @@ In this lab, you will complete the following tasks:
 
 In this task, you will explore ingesting logs from Microsoft Defender for Cloud.
 
-1. In the Search bar of the Azure portal, type *Defender*, then select **Microsoft Defender for Cloud**.
+1. On Azure Portal page, in **Search resources, services and docs (G+/)** box at the top of the portal, enter **Microsoft Defender for Cloud**, and then select **Microsoft Defender for Cloud** under services.
 
 1. From Defender for Cloud's menu, select Environment settings and select the subscription that you want to receive Defender for Endpoint.
 
