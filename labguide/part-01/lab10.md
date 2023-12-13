@@ -16,11 +16,11 @@ In this lab, you will complete the following tasks:
 
 In this task, you will explore the Microsoft Sentinel .
 
-1. In the Search bar of the Azure portal, type *Sentinel*, then select **Microsoft Sentinel**.
+1. On Azure Portal page, in **Search resources, services and docs (G+/)** box at the top of the portal, enter **Microsoft Sentinel**, and then select **Microsoft Sentinel** under services.
 
      ![Picture 1](../media/image_7.png)
 
-1. Select your Microsoft Sentinel Workspace **sentinelworkspace**.
+1. Select **sentinelworkspace**.
 
 1. Select the **Data Connectors** under **Configuration** and select **Go to content hub**.
 
