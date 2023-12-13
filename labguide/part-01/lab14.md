@@ -49,15 +49,13 @@ You are a Security Operations Analyst working at a company that is implementing 
 
 1. Click on apply changes now if you refresh the data connector page you can see the status connected for **Security events Via Legacy agent**
 
-### Task 2: Enable Microsoft Defender for Cloud (Skip if already done)
+### Task 2: Enable Microsoft Defender for Cloud
 
 In this task, you will enable and configure Microsoft Defender for Cloud.
 
 1. In the Search bar of the Azure portal, type *Defender*, then select **Microsoft Defender for Cloud**.
 
 1. click the left menu and click on **Getting started**
-
-1. On the **Getting Started** page, under the **Upgrade** tab, make sure your subscription is selected, and then select the **Upgrade** button at the bottom of the page. Wait for 2-5 minutes to complete it, as it takes time.
 
 1. In the left menu for Microsoft Defender for Cloud, under Management, select **Environment settings**.
 
