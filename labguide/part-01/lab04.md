@@ -52,9 +52,9 @@ In this task, you will enable the plan for resources on which diagnostics you wa
 
 1. Set the workspace on which you're installing the agent. Make sure the workspace is in the same subscription you use in Defender for Cloud and that you have read/write permissions for the workspace.
 
-1. Select one or both **Servers** or **SQL servers on machines** (Foundational CSPM is the free default), and then select **Save**.
+1. Select one or both **Servers** or **SQL servers on machines** and set to **on** (Foundational CSPM is the free default), and then select **Save**.
 
-   ![Picture 1](../media/enbale_defender_plan_for_servers_1.png)
+   ![Picture 1](../media/dd6.png)
 
 ### Task 3: Ingesting data to Sentinel from Microsoft Defender
 
