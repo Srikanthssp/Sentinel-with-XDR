@@ -124,7 +124,7 @@ In this task, you will configure roles for use with device groups.
 
 1. Enter the below details for the New group page:
 
-   |Setting|Value|
+    |Setting|Value|
     |---|---|
     |Group Type| **Microsoft 365** |
     |Group Name| **Sg-IT** |
@@ -192,7 +192,7 @@ In this task, you will configure device groups that allow for access control and
 
 1. On the Devices tab, for the OS condition select **Windows 10** and select **Next**.
 
-  ![](../media/lab3-image8.png)
+    ![](../media/lab3-image8.png)
 
 1. On the Preview devices tab, select **Next**.
 
@@ -200,11 +200,11 @@ In this task, you will configure device groups that allow for access control and
 
 1. For the User access tab, select **sg-IT** and then select **Add selected groups** button. Make sure it appears under **Azure AD user groups with access to this device group**.
 
-   ![](../media/lab3-image10.png)
+    ![](../media/lab3-image10.png)
 
 1. Select **sg-IT** and click on **submit**
 
-   ![](../media/lab3-image11.png)
+    ![](../media/lab3-image11.png)
 
 1. Select **Done**.
 
