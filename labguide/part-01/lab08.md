@@ -19,22 +19,21 @@ In this task, you will explore the Microsoft Sentinel .
 1. On Azure Portal page, in **Search resources, services and docs (G+/)** box at the top of the portal, enter **Microsoft Sentinel**, and then select **Microsoft Sentinel** under services.
      ![Picture 1](../media/image_7.png)
 
-2. Select  **sentinelworkspace**.
+1. Select  **sentinelworkspace**.
 
-3. Select the **Data Connectors** under **Configuration** and select **Go to content hub**.
+1. Select the **Data Connectors** under **Configuration** and select **Go to content hub**.
  
     ![Picture 1](../media/image_34.png)   
 
-5. Search for and select the **Azure Network Security Groups** connector. Select the AD connector.
+1. Search for and select the **Azure Network Security Groups** connector. Select the AD connector.
 
    ![Picture 1](../media/image_33.png)
 
-6. Click on **Install**.
+1. Click on **Install**.
 
 1. Back on **Microsoft Sentinel | Data connectors** page and from left navigation pane select **Analytics** under **Configuration** section.
 
-1. Now you need to setup a analytics rule to get alerts as a incident in the Sentinel, under **Rule templates** tab search for **Azure Network Security Group**  select 
-  and **Create rule**.
+1. Now you need to setup a analytics rule to get alerts as a incident in the Sentinel, under **Rule templates** tab search for **Azure Network Security Group** and click on  **Create rule**.
    
 1. Click on **Automated response** then **Review + create** and click on **Save**. This will create an alert rule.
    
