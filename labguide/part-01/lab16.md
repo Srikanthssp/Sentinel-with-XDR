@@ -53,7 +53,7 @@ In this task, you will save the Microsoft Sentinel workbook templates.
 
 1. Select the **Column Settings** button, it is located to the right of the *Run Query* command bar. **Hint:** This button only appears if there is data from the KQL query.
 
-1. In the *Edit column settings* blade that appears, within *Columns* select **Activities**.
+1. In the *Edit column settings* blade that appears, within *Columns* select **Activity**.
 
 1. Change the value for *Column renderer* to **Heatmap**. For *Colour palette*, scroll down to select **32-color categorical**.
 
