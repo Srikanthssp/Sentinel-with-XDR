@@ -40,7 +40,7 @@ In this task, you will enable Entity behavior analytics in Microsoft Sentinel.
    
 1. Select **Next: Set rule logic >** button.
 
-1. Uder the **Rule query** paste the command.
+1. Under the **Rule query** paste the command.
 
     ```KQL
     SecurityEvent 
