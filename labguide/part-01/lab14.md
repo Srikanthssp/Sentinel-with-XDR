@@ -89,11 +89,11 @@ In this task, you will manually install the required agent on the Windows Server
 
 1. Scroll down and select **Configure** under the *Add non-Azure servers* section.
 
-1. Select **Upgrade** next to the workspace you created earlier.  This might take a few minutes, wait until you see the notification *"Defender plans for workspace were saved successfully"*.
+1. Select **Upgrade** next to **sentinelworkspace**.  This might take a few minutes, wait until you see the notification *"Defender plans for workspace were saved successfully"*.
 
 1. Select **+ Add Servers** next to the workspace you created earlier.
 
-1. Select **Log Analytics agent instructions**
+1. Expand **Log Analytics agent instructions**
 
 1. Select **Download Windows Agent (64 bit)**.
 
