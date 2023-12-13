@@ -20,21 +20,21 @@ In this task, you will explore the Microsoft Sentinel .
 
      ![Picture 1](../media/image_7.png)
 
-2. Select  **sentinelworkspace**.
+1. Select  **sentinelworkspace**.
 
-3. Select the **Data Connectors** under **Configuration** and select **Go to content hub**.
+1. Select the **Data Connectors** under **Configuration** and select **Go to content hub**.
    
      ![Picture 1](../media/image_34.png)
    
-5. Search for and select the **Microsoft Purview** connector. Select the Microsoft Purview.
+1. Search for and select the **Microsoft Purview** connector. Select the Microsoft Purview.
 
    ![Picture 1](../media/image_30.png)
 
-6. Click on **Install**.
+1. Click on **Install**.
    
 1. 1. Back on **Microsoft Sentinel | Data connectors** page and from left navigation pane select **Analytics** under **Configuration** section.
 
-1. Now you need to setup a analytics rule to get alerts as a incident in the Sentinel, under **Rule templates** tab  search for **Microsoft Purview** and click **Create 
+1. Now you need to setup a analytics rule to get alerts as a incident in the Sentinel, under **Rule templates** tab search for **Microsoft Purview** and click **Create 
    rule**.
    
 1. Click on **Automated response** then **Review + create** and click on **Save**. This will create an alert rule.
