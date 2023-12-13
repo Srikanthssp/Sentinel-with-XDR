@@ -25,13 +25,13 @@ You are a Security Operations Analyst working at a company that is implementing 
 
 ### Task 1: Connect the Windows security event connector.
 
-1. In the Search bar of the Azure portal, type *Sentinel*, then select **Microsoft Sentinel**.
+1. On Azure Portal page, in **Search resources, services and docs (G+/)** box at the top of the portal, enter **Microsoft Sentinel**, and then select **Microsoft Sentinel** under services.
 
      ![Picture 1](../media/image_7.png)  
 
 1. Select your Microsoft Sentinel Workspace **sentinelworkspace**.
 
-1. Select  **Content hub** under **Content management**.
+1. From the **Microsoft Sentinel** blade, from left menu select **Content hub** under **Content management** section.
 
 1. On the content hub page search for **Windows security event** and select, Install
 
