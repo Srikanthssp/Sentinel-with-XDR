@@ -26,7 +26,7 @@ In this task, you will enable Entity behavior analytics in Microsoft Sentinel.
 
 1. Select **Analytics** under the *Configuration* area from the left blade.
 
-1. Click on **Create** and Select **Scheduled query rule**.
+1. Click on **+ Create** and Select **Scheduled query rule**.
 
 1. This starts the "Analytics rule wizard". For the *General* tab type:
 
