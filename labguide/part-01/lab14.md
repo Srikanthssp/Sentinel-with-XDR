@@ -101,10 +101,6 @@ In this task, you will manually install the required agent on the Windows Server
 
    >**Note** If it is already installed it asks for "Repair" or "remove" select **Repair** then click on next then click on **install**
 
-1. Select **Next** until the wizard page for **Agent Setup Options** appears, Select **Connect the Agent to Azure Log Analytics (OMS)**, then select **Next**.
-
-1. Copy and paste the **Workspace ID** and **Primary Key** values in the **Workspace Key** text box from the Azure portal into the wizard page fields as appropriate and select **Next**.
-
 1. Continue with the Install. Select **Finish** when complete.
 
 1. Go to the "Microsoft Defender for Cloud" portal and select **Inventory** from the general section.
@@ -117,7 +113,7 @@ In this task, you will manually install the required agent on the Windows Server
 
 In this task, you will access a Log Analytics environment where you can practice writing KQL statements.
 
-1. Go-to Microsoft Sentinel and select your log analytics workspace.
+1. Go-to Microsoft Sentinel and select **sentinelworkspace**.
 
 1. On the left menu click on **logs** close if any tutorial window pops up click on 'X'.
 
