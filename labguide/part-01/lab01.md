@@ -16,8 +16,8 @@ In this lab, you will complete the following tasks:
 
 In this task, you will create a Log Analytics workspace for use with Microsoft Defender for Cloud.
 
-1. In the Search bar of the Azure portal, type **Log Analytics**, then select **Log Analytics workspaces**.
-   
+1.  On Azure Portal page, in **Search resources, services and docs (G+/)** box at the top of the portal, enter **Log Analytics workspaces**, and then select **Log Analytics workspaces** under services.
+ 
    ![](../media/image8.png)
 
 1. Select **+ Create** from the command bar.
@@ -44,7 +44,7 @@ In this task, you will create a Log Analytics workspace for use with Microsoft D
 
 In this task, you will create Microsoft Sentinel workspace where you will be monitoring and analyzing security events in upcoming labs.
 
-1. In the Azure portal, in the **Search Bar** search for **Microsoft Sentinel** then select **Microsoft Sentinel** from the search results. 
+1.  On Azure Portal page, in **Search resources, services and docs (G+/)** box at the top of the portal, enter **Microsoft Sentinel**, and then select **Microsoft Sentinel** under services.
 
    ![Picture 1](../media/image_7.png)
 
