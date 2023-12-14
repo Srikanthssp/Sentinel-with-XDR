@@ -12,7 +12,9 @@ In this lab, you will complete the following task:
 
 ## Task 1:  Using Sentinel Training Lab 
 
-1. In Azure portal search and select Microsoft Sentinel **sentinelworkspace**, select the **Content hub** option in the *Content management* area.
+1. On Azure Portal page, in **Search resources, services and docs (G+/)** box at the top of the portal, enter **Microsoft Sentinel**, and then select **Microsoft Sentinel** under services.
+
+1. On the Microsoft Sentinel select  **sentinelworkspace**, from the left menu select **Content hub** under **Content management** section.
 
 1. From the Microsoft Sentinel page, search **Training Lab**, Select the **Microsoft Sentinel Training Lab**, click **Install**.
    

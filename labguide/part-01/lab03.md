@@ -20,9 +20,11 @@ In this lab, you will perform the following:
 
   ![Picture 1](../media/part1lab02.png)
 
-### Task 1: Preparing the Microsoft Defender workspace
+### Task 1: Initialize Microsoft Defender for Endpoint
 
-1. Within Lab VM 1. In the Edge browser, go to the Microsoft Defender portal at (https://security.microsoft.com) with following credentials.
+In this task, you will perform the initialization of the Microsoft Defender for the Endpoint portal.
+
+1. In the Edge browser on the Lab VM, navigate to the Microsoft Defender portal at (https://security.microsoft.com) and log in using the provided credentials.
 
    - Email/Username: <inject key="AzureAdUserEmail"></inject> and then select Next.
 
@@ -30,34 +32,22 @@ In this lab, you will perform the following:
 
       **Note**: Close **Your new Office 365 protection home** window popup.
 
-3. From the left navigation pane, select **Settings**.
+3. On the **Microsoft Defender** portal, from the navigation menu, select **Settings** .
 
    ![Picture 1](../media/image1-lab3.png)
 
-1. On the **Settings** page select **Microsoft Defender**. You are going to see an image of a coffee mug and a message that reads: *Hang on! We're preparing new spaces for your data and connecting them.*. It will take several minutes to finish, so leave the page open but make sure it finishes since it is required for the next Lab. 
-
-    >**Note:** If you get the error message "We didn't plan it will fail, but something went wrong." retry the step later or do it before the next Lab.
-
-1. When the new space completes successfully, you are going to see the Microsoft Defender settings for Account, Email notifications, Preview features and Streaming API.
-
-### Task 2: Initialize Microsoft Defender for Endpoint
-
-In this task, you will perform the initialization of the Microsoft Defender for the Endpoint portal.
-
-1. In Microsoft Defender portal 
-
-1. On the **Microsoft Defender** portal, from the navigation menu, select **Settings** from the left.
-
 1. On the **Settings** page select **Device discovery**. 
 
-    ![Picture 1](../media/SC200-img1.png)
+    ![Picture 1](../media/dd1.png)
 
-    >**Note:** If you do not see the **Device discovery** option under **Settings**, it may take  1 - 2 hours to reflect so procced with next task and come back after performing next tasks and log out by selecting the top-right circle with your account initials and select **Sign out** and **Sign in** perfoem the task 
+    >**Note:** If you do not see the **Device discovery** option under **Settings**, it may take  1 - 2 hours to reflect so kindly procced with next task and come back after performing next tasks and log out by selecting the top-right circle with your account initials and select **Sign out** and **Sign in** perform this task. 
 
 1. In the Discovery setup make sure **Standard discovery (recommended)** is selected. 
     >**Hint:** If you do not see the option, refresh the page.
 
-### Task 3: Onboard a Device
+     ![Picture 1](../media/dd2.png)
+   
+### Task 2: Onboard a Device
 
 In this task, you will onboard a device to Microsoft Defender for Endpoint using an onboarding script.
 
@@ -69,7 +59,7 @@ In this task, you will onboard a device to Microsoft Defender for Endpoint using
 
 1. Select **Onboarding** in the Device Management section.
 
-    ![Picture 1](../media/image2-lab3.png)
+    ![Picture 1](../media/dd4.png)
 
     >**Note:** You can also perform device onboarding from the **Assets** section of the left menu bar. Expand Assets and select Devices. On the Device Inventory page, with Computers & Mobile selected, scroll down to **Onboard devices.** This takes you to the **Settings > Endpoints** page.
 
@@ -86,11 +76,12 @@ In this task, you will onboard a device to Microsoft Defender for Endpoint using
     ![Picture 1](../media/sc200-mod2-unblock.png)
 
 1. Right-click on the extracted file **WindowsDefenderATPLocalOnboardingScript.cmd** again and choose **Run as Administrator**.
+
    **Hint:** If you encounter the Windows SmartScreen window, select on **More info**, and choose **Run anyway**. 
     
 1. If **User Account Control** window is prompted, select **Yes** to allow the script to run.
 
-1. Enter **Y** to the question presented by the script and press **Enter**. When complete you should see a message in the command screen that says *Successfully onboarded machine to Microsoft Defender for Endpoint*.
+1. Enter **Y** to the question presented by the script and press **Enter**. When complete you should see a message in the command screen that says **Successfully onboarded machine to Microsoft Defender for Endpoint**.
 
    ![Picture 1](../media/image6-lab3.png)
    
@@ -104,15 +95,17 @@ In this task, you will onboard a device to Microsoft Defender for Endpoint using
 
 1. When the "User Account Control" window is shown, select **Yes** to allow the app to run. 
 
-1. Paste the script by right-clicking in the **Administrator: Command Prompt** windows and press **Enter** to run it. **Note:** The window closes automatically after running the script.
+1. Paste the script by right-clicking in the **Administrator: Command Prompt** windows and press **Enter** to run it.
+
+   **Note:** The window closes automatically after running the script.
 
 1. In the Microsoft Defender portal, in the left-hand menu, under the **Assets** area, select **Devices**. If the device is not shown, complete the next task and come back to check it back later. It can take up to 60 minutes for the first device to be displayed in the portal.
 
-     ![Picture 1](../media/SC-200-img22.png)
+     ![Picture 1](../media/dd3.png)
 
     >**Note:** If you have completed the onboarding process and don't see devices in the Devices list after an hour, it might indicate an onboarding or connectivity problem.
     
-### Task 4: Configure Roles
+### Task 3: Configure Roles
 
 In this task, you will configure roles for use with device groups.
 
@@ -124,7 +117,7 @@ In this task, you will configure roles for use with device groups.
 
 1. Enter the below details for the New group page:
 
-   |Setting|Value|
+    |Setting|Value|
     |---|---|
     |Group Type| **Microsoft 365** |
     |Group Name| **Sg-IT** |
@@ -167,7 +160,7 @@ In this task, you will configure roles for use with device groups.
 
    ![](../media/lab3-image5.png)
 
-### Task 5: Configure Device Groups
+### Task 4: Configure Device Groups
 
 In this task, you will configure device groups that allow for access control and automation configuration.
 
@@ -192,7 +185,7 @@ In this task, you will configure device groups that allow for access control and
 
 1. On the Devices tab, for the OS condition select **Windows 10** and select **Next**.
 
-  ![](../media/lab3-image8.png)
+    ![](../media/lab3-image8.png)
 
 1. On the Preview devices tab, select **Next**.
 
@@ -200,11 +193,11 @@ In this task, you will configure device groups that allow for access control and
 
 1. For the User access tab, select **sg-IT** and then select **Add selected groups** button. Make sure it appears under **Azure AD user groups with access to this device group**.
 
-   ![](../media/lab3-image10.png)
+    ![](../media/lab3-image10.png)
 
 1. Select **sg-IT** and click on **submit**
 
-   ![](../media/lab3-image11.png)
+    ![](../media/lab3-image11.png)
 
 1. Select **Done**.
 

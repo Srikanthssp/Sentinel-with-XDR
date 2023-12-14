@@ -25,13 +25,13 @@ You are a Security Operations Analyst working at a company that is implementing 
 
 ### Task 1: Connect the Windows security event connector.
 
-1. In the Search bar of the Azure portal, type *Sentinel*, then select **Microsoft Sentinel**.
+1. On Azure Portal page, in **Search resources, services and docs (G+/)** box at the top of the portal, enter **Microsoft Sentinel**, and then select **Microsoft Sentinel** under services.
 
      ![Picture 1](../media/image_7.png)  
 
 1. Select your Microsoft Sentinel Workspace **sentinelworkspace**.
 
-1. Select  **Content hub** under **Content management**.
+1. From the **Microsoft Sentinel** blade, from left menu select **Content hub** under **Content management** section.
 
 1. On the content hub page search for **Windows security event** and select, Install
 
@@ -49,15 +49,13 @@ You are a Security Operations Analyst working at a company that is implementing 
 
 1. Click on apply changes now if you refresh the data connector page you can see the status connected for **Security events Via Legacy agent**
 
-### Task 2: Enable Microsoft Defender for Cloud (Skip if already done)
+### Task 2: Enable Microsoft Defender for Cloud
 
 In this task, you will enable and configure Microsoft Defender for Cloud.
 
 1. In the Search bar of the Azure portal, type *Defender*, then select **Microsoft Defender for Cloud**.
 
 1. click the left menu and click on **Getting started**
-
-1. On the **Getting Started** page, under the **Upgrade** tab, make sure your subscription is selected, and then select the **Upgrade** button at the bottom of the page. Wait for 2-5 minutes to complete it, as it takes time.
 
 1. In the left menu for Microsoft Defender for Cloud, under Management, select **Environment settings**.
 
@@ -67,13 +65,13 @@ In this task, you will enable and configure Microsoft Defender for Cloud.
 
 1. Select the **Settings & monitoring** tab from the Settings area (next to Save).
 
-1. Review the monitoring extensions. Confirm that **Log Analytics agent/Azure Monitor agent** is **Off**. Close the Settings & monitoring page by selecting the 'X' on the upper right of the page.
+1. Review the monitoring extensions. Confirm that **Log Analytics agent/Azure Monitor agent** is **Off**, if not select **off** select **continue > save** Close the Settings & monitoring page by selecting the 'X' on the upper right of the page.
 
 1. Close the settings page by selecting the 'X' on the upper right of the page to go back to the **Environment settings** and select the '>' to the left of your subscription.
 
 1. Select the Log Analytics workspace you created earlier *uniquenameDefender* to review the available options and pricing.
 
-1. Select **Enable all** (to the right of Select Defender plan) and then select **Save**. Wait for the *"Microsoft Defender plan for workspace uniquenameDefender was saved successfully!"* notification to appear.
+1. Select **Enable all** (to the right of Select Defender plan) and then select **Save**. Wait for the **Microsoft Defender plan for workspace uniquenameDefender was saved successfully!** notification to appear.
 
     ![Picture 1](../media/SC-200-img333.png)
 
@@ -89,23 +87,19 @@ In this task, you will manually install the required agent on the Windows Server
 
 1. Select the **Get Started** tab.
 
-1. Scroll down and select **Configure** under the *Add non-Azure servers* section.
+1. Scroll down and select **Configure** under the **Add non-Azure servers** section.
 
-1. Select **Upgrade** next to the workspace you created earlier.  This might take a few minutes, wait until you see the notification *"Defender plans for workspace were saved successfully"*.
+1. Select **Upgrade** next to **sentinelworkspace**.  This might take a few minutes, wait until you see the notification **"Defender plans for workspace were saved successfully"**.
 
 1. Select **+ Add Servers** next to the workspace you created earlier.
 
-1. Select **Log Analytics agent instructions**
+1. Expand **Log Analytics agent instructions**.
 
 1. Select **Download Windows Agent (64 bit)**.
 
 1. Select **Open file** to run the downloaded *MMASetup-AMD64.exe* file.
 
-   >**Note** If it is already installed it asks for "Repair" or "remove" select **Repair** then click on next then click on **install**
-
-1. Select **Next** until the wizard page for **Agent Setup Options** appears, Select **Connect the Agent to Azure Log Analytics (OMS)**, then select **Next**.
-
-1. Copy and paste the **Workspace ID** and **Primary Key** values in the **Workspace Key** text box from the Azure portal into the wizard page fields as appropriate and select **Next**.
+   >**Note** If it is already installed it asks for "Repair" or "remove" select **Repair** then click on next then click on **install**.
 
 1. Continue with the Install. Select **Finish** when complete.
 
@@ -119,7 +113,7 @@ In this task, you will manually install the required agent on the Windows Server
 
 In this task, you will access a Log Analytics environment where you can practice writing KQL statements.
 
-1. Go-to Microsoft Sentinel and select your log analytics workspace.
+1. Go-to Microsoft Sentinel and select **sentinelworkspace**.
 
 1. On the left menu click on **logs** close if any tutorial window pops up click on 'X'.
 
@@ -151,25 +145,26 @@ In this task, you will build basic KQL statements.
     search "err"
     ```
 
-    >**Note**: It will taskes some time to reflect, you can move to other command check this later. *Hint*: If the above command is not getting output replace **"err"** to **"new"**.
+    >**Note**: It will take some time to reflect, you can move to other command check this later.
+    
+    >**Hint**: If the above command is not getting output replace **"err"** to **"new"**.
 
     ![Picture 1](../media/SC-200-img9.png)
 
-    >**Note**: It will taskes some time to reflect, you can move to other command check this later. *Hint*: If the above command is not getting output replace **"err"** to **"new"**.
+    >**Note**: It will take some time to reflect, you can move to other command check this later. *Hint*: If the above command is not getting output replace **"err"** to **"new"**.
 
 1. The following statement demonstrates **search** across tables listed within the **in** clause. In the Query Window enter the following statement and select **Run**: 
 
     ```KQL
     search in (SecurityEvent,SecurityAlert,A*) "err"
     ```
-    >**Note**: It will taskes some time to reflect, you can move to other command check this later. *Hint*: If the above command is not getting output replace **"err"** to **"new"**
-
-    >**Note**: It will taskes some time to reflect, you can move to other command check this later. *Hint*: If the above command is not getting output replace **"err"** to **"new"**
+    >**Note**: It will take some time to reflect, you can move to other command check this later. *Hint*: If the above command is not getting output replace **"err"** to **"new"**
 
 1. Change back the **Time range** to **Last 24 hours** in the Query Window.
 
 1. The following statements demonstrate the **where** operator, which filters on a specific predicate. In the Query Window enter the following statements and run each query separately: 
     >**Note:** You should select **Run** after entering each query from the code blocks below.
+    >**Note**: It will take some time to reflect for some command, you can move to other command check this later.
 
     ```KQL
     SecurityEvent  
@@ -273,7 +268,9 @@ In this task, you will build basic KQL statements.
 
 In this task, you will build KQL statements to aggregate data. **Summarize** groups the rows according to the **by** group columns, and calculates aggregations over each group.
 
-1. The following statement demonstrates the **count()** function, which returns a count of the group. In the Query Window enter the following statement and select **Run**: 
+1. The following statement demonstrates the **count()** function, which returns a count of the group. In the Query Window enter the following statement and select **Run**:
+   
+   >**Note**: It will take some time to reflect for some command, you can move to other command check this later.
 
     ```KQL
     SecurityEvent  
@@ -365,6 +362,8 @@ In this task, you will build multi-table KQL statements.
 
 1. The following statement demonstrates the **union** operator, which takes two or more tables and returns all their rows. Understanding how results are passed and impacted with the pipe character is essential. In the Query Window enter the following statements and select **Run** for each query separately to see the results: 
 
+    >**Note**: It will take some time to reflect for some command, you can move to other command check this later.
+       
     1. **Query 1** will return all rows of SecurityEvent and all rows of SigninLogs.
 
         ```KQL

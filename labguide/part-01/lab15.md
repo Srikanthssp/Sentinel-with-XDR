@@ -26,7 +26,7 @@ In this task, you will enable Entity behavior analytics in Microsoft Sentinel.
 
 1. Select **Analytics** under the *Configuration* area from the left blade.
 
-1. Click on **Create** and Select **Scheduled query rule**.
+1. Click on **+ Create** and Select **Scheduled query rule**.
 
 1. This starts the "Analytics rule wizard". For the *General* tab type:
 
@@ -40,7 +40,7 @@ In this task, you will enable Entity behavior analytics in Microsoft Sentinel.
    
 1. Select **Next: Set rule logic >** button.
 
-1. Uder the **Rule query** paste the command.
+1. Under the **Rule query** paste the command.
 
     ```KQL
     SecurityEvent 
@@ -90,7 +90,7 @@ In this task, you will create an Azure DevOps repository.
 
 1. *Enter characters you see*, then **Continue**.
 
-1. On the *Create a project to get started* page, enter **My Sentinel Content** and then select **Create project**.
+1. On the *Create a project to get started* page, enter **My Sentinel Content** and then select **+ Create project**.
 
 1. Navigate to **Repos** on the left pane.
 

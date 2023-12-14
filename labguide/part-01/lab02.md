@@ -16,26 +16,27 @@ In this lab, you will complete the following tasks:
 
 In this task, you will enable and configure Microsoft Defender for Cloud.
 
-1. In the Search bar of the Azure portal, type *Defender*, then select **Microsoft Defender for Cloud**.
+1.  On Azure Portal page, in **Search resources, services and docs (G+/)** box at the top of the portal, enter **Microsoft Defender for Cloud**, and then select **Microsoft Defender for Cloud** under services.
 
    ![](../media/image1.png)
 
-1. Click the left menu and click on **Getting started**. On the **Getting Started** page, under the **Upgrade** tab, make sure your subscription is selected and then select the **Upgrade** button at the bottom of the page. It takes about 2 minutes.
+1. From left navigation menu and click on **Getting started**.
+
+1. On the **Getting Started** page, under the **Upgrade** tab, make sure your subscription is selected and then select the **Upgrade** button at the bottom of the page.
 
     ![](../media/image_60.png)
 
-1. From Defender for Cloud's menu, select Environment settings and select the subscription.
+1. From the left menu, select **Environment settings** under **Management** section and select the subscription.
 
      ![Picture 1](../media/image_50.png)
 
 1. Review the Azure resources that are now protected with the Defender for Cloud plans.
 
-1. Click on *Defender Plans* on left blade. Then you need to click on *Settings&Monitoring* inbetween the page at top left.
+1. Click on **Defender Plans** on left blade. Then you need to click on **Settings&Monitoring** inbetween the page at top left.
 
     ![](../media/image_49.png)
 
-1. Review the monitoring extensions ,Confirm that **Log Analytics agent/Azure Monitor agent** is **Off** and  If **sentinelworkspace** is **On** 
-   then change to **Off**. Press continue on the top of right side
+1. Review the monitoring extensions ,Confirm that **Log Analytics agent/Azure Monitor agent** is **Off**  and press **continue** on the top of right side
    
    ![](../media/image4-lab2.png)
     
@@ -45,7 +46,7 @@ In this task, you will enable and configure Microsoft Defender for Cloud.
 
 1. To go back to the **Environment settings** and  Close the **Settings | Defender plans** blade by selecting the 'X' on the upper right of the page.
 
-1. Select the Log Analytics workspace you created earlier **sentinelworkspace** to review the available options and pricing.
+1. Back on **Environment settings** page expand subscription and Select the Log Analytics workspace you created earlier **sentinelworkspace** to review the available options and pricing.
 
 1. Select **Enable all plans** for  services (**servers**) which you want to onboard (to the right of Select Defender plan) and then select **Save**. Wait for the **"Microsoft Defender plan for workspace LogAnalytics-workspace- was saved successfully!"** notification to appear.
 
