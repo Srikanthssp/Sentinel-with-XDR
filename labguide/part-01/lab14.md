@@ -362,7 +362,7 @@ In this task, you will build multi-table KQL statements.
 
 1. The following statement demonstrates the **union** operator, which takes two or more tables and returns all their rows. Understanding how results are passed and impacted with the pipe character is essential. In the Query Window enter the following statements and select **Run** for each query separately to see the results: 
 
-    >**Note**: It will take some time to reflect for some command, you can move to other command check this later.
+    >**Note**: It will take some time to reflect for some command, you can move to other command and check this later.
        
     1. **Query 1** will return all rows of SecurityEvent and all rows of SigninLogs.
 

@@ -28,7 +28,7 @@ In this task, you will explore ingesting logs from Microsoft Defender for Cloud.
 
 1. Enable the **Log Analytics agent** which will Collects security-related configurations and event logs from the machine and stores the data in your Log Analytics workspace for analysis.
 
-     >**Note**: If its already enable, no need to change.
+     >**Note**: If its already enabled, Please leave it to default and contine with the next step.
 
    ![Picture 1](../media/Log_Analytics_Enable_1.png)
 

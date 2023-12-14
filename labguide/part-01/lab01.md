@@ -46,7 +46,7 @@ In this task, you will create Microsoft Sentinel workspace where you will be mon
 
 1.  On Azure Portal page, in **Search resources, services and docs (G+/)** box at the top of the portal, enter **Microsoft Sentinel**, and then select **Microsoft Sentinel** under services.
 
-   ![Picture 1](../media/image_7.png)
+    ![Picture 1](../media/image_7.png)
 
 1. From the Microsoft Sentinel page, select **+ Create**.
 

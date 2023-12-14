@@ -94,7 +94,7 @@ In this task, you will create an indicator in Microsoft Sentinel.
     ```KQL
     ThreatIntelligenceIndicator
     ```
-    **Note:** You may need to wait for 20 minutes to get the expected output.
+    **Note:** You may need to wait for upto 20 minutes to get the expected output.
 
     Scroll the results to the right to see the DomainName column. You can also run the following KQL statement to just see the DomainName column.  
 

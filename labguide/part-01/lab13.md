@@ -28,7 +28,7 @@ In this lab, you will complete the following task:
 
    ![Picture 1](../media/image_38.png)
 
-    >**Note:** That the deployment process takes **about 15 minutes**, in part because we want to make sure all the ingested data is ready for you to use once finished.
+    >**Note:** That the deployment process takes **about 15 minutes**, you need to make sure all the ingested data is ready for you to use once finished.
    
    ![Picture 1](../media/image_37.png)  
 

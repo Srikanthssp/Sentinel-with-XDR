@@ -180,8 +180,7 @@ In this task, you will configure device groups that allow for access control and
     |Remediation level| Full-remediate threats automatically|
     |||
 
-   ![](../media/lab3-image7.png)
-
+    ![](../media/lab3-image7.png)
 
 1. On the Devices tab, for the OS condition select **Windows 10** and select **Next**.
 

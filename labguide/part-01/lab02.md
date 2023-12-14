@@ -18,7 +18,7 @@ In this task, you will enable and configure Microsoft Defender for Cloud.
 
 1.  On Azure Portal page, in **Search resources, services and docs (G+/)** box at the top of the portal, enter **Microsoft Defender for Cloud**, and then select **Microsoft Defender for Cloud** under services.
 
-   ![](../media/image1.png)
+    ![](../media/image1.png)
 
 1. From left navigation menu and click on **Getting started**.
 
@@ -53,7 +53,9 @@ In this task, you will enable and configure Microsoft Defender for Cloud.
    ![](../media/image_4.png)
 
    >**Note:** If the page is not being displayed, refresh your Edge browser and try again and if Plans are already enable no need to change anything.
+   
    >**Note:** Skip this step if services already enabled
+   
 1. Close the Defender plans page by selecting the 'X' on the upper right of the page to go back to the **Environment settings**
 
 ## Review
