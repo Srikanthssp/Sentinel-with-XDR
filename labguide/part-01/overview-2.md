@@ -21,53 +21,65 @@ By implementing a robust log analytics and threat detection program, Contoso aim
 
 ## About the Sandbox
 
+Using this environment, You'll be able to explore complete features and offerings offered by Microsoft Sentinel. Please find the detailed overview about the sandbox environemnt below.
+
 ### Pre-provisioned resources
 
-**Virtual Machines**: 
+#### **Virtual Machines**: 
 
-- 2 *Windows Server 2019 Datacenter* Virtual machines, virtual machine related resources like Virtual network, Network security groups, managed disks, Network interface card, and IP address are deployed. 
+- 2 *Windows Server 2019 Datacenter* Virtual machines, virtual machine related resources like Virtual network, Network security groups, managed disks, Network interface card, and IP addresses are deployed as part of the automation.
 
   You are recommended to use the same virtual machine through the lab for the best experience through out the lab.
 
-**License and subscription**: 
+#### **License and subscription**: 
 
 - You'll have access to a pre-confgured Microsoft user accountt with an active Azure subscription, a tenant, and a Microsoft 365 E5 license assigned to the user. 
    
   User account has assigned as Owner at subscription and Global administrator at tenant level. You need to user the same user account through out the lab to get most out of the lab. 
 
-  
-**Lab Guide**: 
+#### **Azure Credits**: 
 
-- You will access to a lab guide which is a reference material to assist you in getting started with the exploration. You are encouraged to explore Microsoft Purview further based on your interests and preferences.
+- You have given a quota of **$83 USD** which includes runnning cost of Pre-deployed resources, license cost, and other resources deployed while running through the lab.
 
+  You will receive **cost alerts** to your registered email address at **50%/75%/90%/95%/100%** of the alloted Azure Credit is spent.
 
+  You can visit the Azure Subscription page to check the current Azure credit spend and Analysis on **Cost analysis** tab under Cost Management option.
 
+  ![Picture 1](../media/o1.jpg)
 
+#### **Duration and Deletion of sandbox**:  
 
-In this sandbox environment, You'll have access to a predeployed environment with an active Azure subscription, a tenant, and a Microsoft 365 E5 license assigned to the user. 
+- The sandbox enviornment will be active for 30 days/730 hours from the time of registration. 
 
-Using this environment, You'll be able to explore complete features and offerings offered by Microsoft Sentinel including XDR protection.
+  when 100% of Azure credits are spent, the sandbox environment will get automatically deleted without any prior notification. In order to retain the environment for longer period of time and to get most out the enviornment, please follow the best practices mentioned below.
 
-## Contents:
+#### **Best practices**: 
 
-### Part - 01: Microsoft Sentinel
+- **Resources usage**: Please stop the virtual machines and other resources when not in use in order to minimize the Azure spend.
 
-- Lab 01 - Enable Microsoft Defender for Cloud
-- Lab 02 - Deploy Microsoft Defender for Endpoint
-- Lab 03 - Create a Microsoft Sentinel
-- Lab 04 - Create workbooks
-- Lab 05 - Use Repositories in Microsoft Sentinel
-- Lab 06 - Ingest Logs from Microsoft Defender for Cloud
-- Lab 07 - Ingest Logs from Microsoft Defender for Endpoint
-- Lab 08 - Ingest Logs from Entra ID
-- Lab 09 - Create queries for Microsoft Sentinel using Kusto Query Language (KQL)
+- **Azure Cost Analysis**: Maintain a pratice of checking the Cost Analysis report of the assigned Azure subscription oftenly in check the Azure spend so that enviornment for a longer duration of time.
 
-### Part - 02: Threat Protection using XDR
+- **Alert notifications**: Make sure check your registered email's inbox for any alerts related mails. Alerts gives you can head start to keep your Azure spend in control and to plan out the remaining credits in the best way possible.
+## Lab guide Content:
 
-- Prerequisites
-- Lab 01 - Conduct attacks
-- Lab 02 - Create Detections
-- Lab 03 - Investigate an Incident
+You will access to a lab guide which is a reference material to assist you in getting started with the exploration. You are encouraged to explore Microsoft Purview further based on your interests and preferences.
+
+- Lab 01 - Setup Sentinel Environment
+- Lab 02 - Onboard Server Defender for Cloud
+- Lab 03 - Deploy Microsoft Defender for Endpoint
+- Lab 04 - Ingest Logs from Microsoft Defender for Cloud
+- Lab 05 - Ingest Logs from Microsoft Defender for Endpoint
+- Lab 06 - Ingest Logs from Microsoft Entra ID
+- Lab 07 - Ingest Logs from Microsoft Purview
+- Lab 08 - Ingest Logs from Azure Network security Groups
+- Lab 09 - Ingest Logs from Microsoft 365
+- Lab 10 - Ingest Logs from Microsoft Azure Activity
+- Lab 11 - Create a Watchlist, Threat Indicator
+- Lab 12 - Configure Log Retention
+- Lab 13 - Using Sentinel Training Lab
+- Lab 14 - Create queries for Microsoft Sentinel using Kusto Query Language (KQL)
+- Lab 15 - Use Repositories in Microsoft Sentinel
+- Lab 16 - Create workbooks
 
 ### Azure services and related products
 
@@ -76,3 +88,4 @@ Using this environment, You'll be able to explore complete features and offering
 - Microsoft Defender for Endpoint
 - Microsoft Entra ID
 - Microsoft Sentinel
+
