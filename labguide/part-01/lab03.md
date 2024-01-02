@@ -7,7 +7,7 @@ Microsoft Defender for Endpoint is an advanced endpoint security platform that p
 
 You are a Security Operations Analyst working at a company that is implementing Microsoft Defender for Endpoint. Your manager plans to onboard a few devices to provide insight into required changes to the Security Operations (SecOps) team response procedures.
 
-You start by initializing the Defender for the Endpoint environment. Next, you onboard SVM devices for your deployment by running the onboarding script on the devices. You configure security for the environment. Lastly, you create Device groups and assign the appropriate devices.
+You start by initializing the Defender for the Endpoint environment. Subsequently, run the onboarding script on SVM devices to seamlessly integrate them into Defender for Endpoint, ensuring continuous monitoring. Proceed to configure security parameters and establish robust security measures tailored to the environment. configure roles for effective access control. Finally, conclude the deployment by creating device groups, categorizing devices based on criteria, and assigning them to optimize security across different segments of the deployment.
 
 >**Note**: Defender for Endpoint is a comprehensive solution for preventing, protecting, from, detecting, and automating the investigation of and response to threats on endpoints. It's a core part of Microsoft 365 Defender, which combines and orchestrates the capabilities of Defender for. Endpoint Defender for Office 365, Defender for Identity and Defender for Cloud apps. Several components defined Defender for endpoint.
 
