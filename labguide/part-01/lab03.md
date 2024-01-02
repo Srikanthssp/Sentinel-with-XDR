@@ -67,7 +67,9 @@ In this task, you will onboard a device to Microsoft Defender for Endpoint using
 
     ![Picture 1](../media/image3-lab3.png)
    
-1. Under the *Downloads* pop-up, highlight the "WindowsDefenderATPOnboardingPackage.zip" file with your mouse and select the folder icon **Show in folder**. **Hint:** In case you don't see it, the file should be in the c:\users\demouser\downloads directory.
+1. Under the *Downloads* pop-up, highlight the "WindowsDefenderATPOnboardingPackage.zip" file with your mouse and select the folder icon **Show in folder**.
+
+   >**Note:** In case you don't see it, the file should be in the c:\users\demouser\downloads directory.
 
 1. Right-click the downloaded zip file and select **Extract All...**, make sure that **Show extracted files when complete** is checked and select **Extract**.
 
