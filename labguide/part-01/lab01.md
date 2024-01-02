@@ -78,6 +78,10 @@ In this task, you will create Microsoft Sentinel workspace where you will be mon
 
 1. Keep this page open, as you will use it in the next task.
 
+### Conclusion
+
+Upon completing these tasks, the organization now possesses the necessary infrastructure to monitor and respond to security events. Log Analytics and Sentinel workspaces are essential tools for maintaining a secure environment in the dynamic landscape of cloud computing.
+ 
 ## Review
 In this lab, you will complete the following tasks:
 - Create a Log Analytics Workspace
