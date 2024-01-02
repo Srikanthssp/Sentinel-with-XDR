@@ -14,7 +14,9 @@ In this lab, you will complete the following tasks:
 
 
 ### Task 1: Enabling Microsoft Defender for Cloud
-In this exercise, you will be getting started with the functionality of Microsoft Defender for Cloud and how to enable Microsoft Defender for Cloud on a subscription.
+In this task, you will be getting started with the functionality of Microsoft Defender for Cloud and how to enable Microsoft Defender for Cloud on a subscription.
+
+   >**Note**: Enabling Microsoft Defender for Cloud is a proactive step toward securing your Azure resources, identifying vulnerabilities, and responding to potential security threats. It helps organizations maintain a robust security posture and adhere to compliance standards in the dynamic landscape of cloud computing.
 
 1.  On Azure Portal page, in **Search resources, services and docs (G+/)** box at the top of the portal, enter **Microsoft Defender for Cloud**, and then select **Microsoft Defender for Cloud** under services.
 
@@ -58,9 +60,6 @@ In this exercise, you will be getting started with the functionality of Microsof
    >**Note:** Skip this step if services already enabled
    
 1. Close the Defender plans page by selecting the 'X' on the upper right of the page to go back to the **Environment settings**
-
-
-   >**Note**: Enabling Microsoft Defender for Cloud is a proactive step toward securing your Azure resources, identifying vulnerabilities, and responding to potential security threats. It helps organizations maintain a robust security posture and adhere to compliance standards in the dynamic landscape of cloud computing.
 
 ### Task 2: Onboard Servers to Defender for Cloud  
 After you connect Defender for Cloud to your Azure subscription, you can start connecting your on-premises machines from the Getting started page in Defender for Cloud.
