@@ -110,5 +110,9 @@ After you connect Defender for Cloud to your Azure subscription, you can start c
 
 >**Note**: These steps guide you through setting up the necessary components to connect your on-premises Windows servers to Microsoft Defender for Cloud. This integration allows you to leverage the security features, threat detection, and compliance management provided by Defender for Cloud for both your Azure and on-premises infrastructure.
 
-## Review
+### Conclusion
+
+Enabling Defender for Cloud on Azure subscriptions and extending its coverage to on-premises servers. The proactive security measures align with broader organizational goals, emphasizing continuous monitoring, threat detection, and compliance adherence across the entire hybrid cloud environment. This comprehensive approach ensures a holistic and effective security posture for both Azure and local infrastructure.
+
+### Review
 In this lab, you will complete the following tasks:
