@@ -70,4 +70,3 @@ In this task, you will enable and configure Microsoft Defender for Cloud.
 
 ## Review
 In this lab, you will complete the following tasks:
-- Onboard Server to Defender for Cloud.
