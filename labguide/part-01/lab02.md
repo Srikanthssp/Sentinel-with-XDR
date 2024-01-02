@@ -1,4 +1,4 @@
-## Lab 02 - Deploy Microsoft Defender for Cloud  
+## Lab 02 - Enabling Microsoft Defender for Cloud
 
 ## Lab scenario
 In this lab, you will setup Log ingestion from Microsoft Defender for Endpoint is to collect, process, and analyze security event logs from Microsoft Defender for Endpoint to enhance threat detection and response within the organization.
@@ -16,20 +16,8 @@ In this lab, you will complete the following tasks:
 
 
 
-### Task 2: Deploy Microsoft Defender for Cloud  
-
-
-
-
-
-
-
-
-
-
-### Task 1: Onboard Server to Defender for Cloud 
-
-In this task, you will enable and configure Microsoft Defender for Cloud.
+### Task 1: Enabling Microsoft Defender for Cloud
+In this exercise, you will be getting started with the functionality of Microsoft Defender for Cloud and how to enable Microsoft Defender for Cloud on a subscription.
 
 1.  On Azure Portal page, in **Search resources, services and docs (G+/)** box at the top of the portal, enter **Microsoft Defender for Cloud**, and then select **Microsoft Defender for Cloud** under services.
 
@@ -46,6 +34,13 @@ In this task, you will enable and configure Microsoft Defender for Cloud.
      ![Picture 1](../media/image_50.png)
 
 1. Review the Azure resources that are now protected with the Defender for Cloud plans.
+
+
+
+### Task 2: Onboard Server to Defender for Cloud 
+
+In this task, you will enable and configure Microsoft Defender for Cloud.
+
 
 1. Click on **Defender Plans** on left blade. Then you need to click on **Settings&Monitoring** inbetween the page at top left.
 
