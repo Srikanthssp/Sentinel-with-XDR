@@ -1,9 +1,9 @@
 ## Lab 01 - Setup Sentinel Workspace
 
-## Overview
- You are a Security Operations Analyst working at a company . You will start creating a Log Analytics workspace which is a unique environment for log data from Azure Monitor and other Azure services, such as Microsoft Sentinel and Microsoft Defender for Cloud. You will also create Microsoft Sentinel instance to
+## Lab Overview
+In the initial phase of setting up the security infrastructure, the focus is on creating essential components to monitor and analyze security events. This involves creating a Log Analytics workspace and a Microsoft Sentinel workspace, laying the foundation for subsequent security measures.
 
-## 
+## Lab Scenario 
 
 Creating Log Analytics and Sentinel workspaces is critical for effective security management. Log Analytics provides a centralized location to store and query data, while Sentinel serves as the platform for advanced security analysis. These workspaces enable proactive threat detection and incident response.
 
