@@ -1,5 +1,9 @@
 ## Lab 02 - Enabling Microsoft Defender for Cloud
 
+## Lab Overview
+
+Enabling Microsoft Defender for Cloud is a proactive measure to secure Azure resources, identify vulnerabilities, and respond to potential security threats. This process enhances the overall security posture and ensures compliance in the dynamic cloud computing landscape. Subsequently, onboarding on-premises servers extends the security framework to cover both Azure and local infrastructure.
+
 ## Lab scenario
 In this lab, you will setup Log ingestion from Microsoft Defender for Endpoint is to collect, process, and analyze security event logs from Microsoft Defender for Endpoint to enhance threat detection and response within the organization.
 
