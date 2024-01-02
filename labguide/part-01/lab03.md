@@ -1,4 +1,4 @@
-## Lab 03 - Deploy Microsoft Defender for Endpoint
+## Lab 03 - Configuration and Management of Microsoft Defender for Endpoint
 
 ## Lab scenario
 
