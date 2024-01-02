@@ -7,7 +7,6 @@ In the initial phase of setting up the security infrastructure, the focus is on 
 
 In this lab, you will undertake the essential task of setting up Log Analytics provides a centralized location to store and query data, while Sentinel serves as the platform for advanced security analysis. These workspaces enable proactive threat detection and incident response.
 
-
 ## Lab objectives ( Duration: 30 minutes)
 In this lab, you will complete the following tasks:
 - Task 1: Create a Log Analytics Workspace
