@@ -67,8 +67,10 @@ In this task, you will enable the plan for resources on which diagnostics you wa
    
     ![Picture 1](../media/sen-image1-lab4.png)
 
+### Conclusion
+Upon completion, the organization achieves an elevated security posture with enhanced monitoring, threat detection, and efficient data analysis. The integration of Defender for Cloud and Sentinel aligns with the goal of maintaining a secure Azure environment.
 
-## Review
+### Review
 In this lab, you will complete the following tasks:
 - Enabling Defender to monitor events
 - Enabling Plan of Defender for resources
