@@ -65,7 +65,7 @@ In this task, you will enable the plan for resources on which diagnostics you wa
 
 1. Select the conenctor of **Microsoft Defender for Cloud** and click on install to get the logs into the Sentinel.
    
-    ![Picture 1](../media/sent-1.png)
+    ![Picture 1](../media/sen-image1-lab4.png)
 
 
 ## Review
