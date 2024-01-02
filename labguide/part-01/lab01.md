@@ -3,7 +3,7 @@
 ## Lab Overview
 In the initial phase of setting up the security infrastructure, the focus is on creating essential components to monitor and analyze security events. This involves creating a Log Analytics workspace and a Microsoft Sentinel workspace, laying the foundation for subsequent security measures.
 
-## Lab Scenario 
+## Lab Scenario
 
 Creating Log Analytics and Sentinel workspaces is critical for effective security management. Log Analytics provides a centralized location to store and query data, while Sentinel serves as the platform for advanced security analysis. These workspaces enable proactive threat detection and incident response.
 
