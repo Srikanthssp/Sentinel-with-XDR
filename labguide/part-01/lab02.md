@@ -61,6 +61,8 @@ In this exercise, you will be getting started with the functionality of Microsof
 1. Close the Defender plans page by selecting the 'X' on the upper right of the page to go back to the **Environment settings**
 
 
+   >**Note**: Enabling Microsoft Defender for Cloud is a proactive step toward securing your Azure resources, identifying vulnerabilities, and responding to potential security threats. It helps organizations maintain a robust security posture and adhere to compliance standards in the dynamic landscape of cloud computing.
+
 ### Onboard Servers to Defender for Cloud  
 After you connect Defender for Cloud to your Azure subscription, you can start connecting your on-premises machines from the Getting started page in Defender for Cloud.
 
