@@ -6,7 +6,7 @@ You are a Security Operations Analyst working at a company that is implementing 
 
 You start by initializing the Defender for the Endpoint environment. Next, you onboard the initial devices for your deployment by running the onboarding script on the devices. You configure security for the environment. Lastly, you create Device groups and assign the appropriate devices.
 
->**Important:**  The lab Virtual Machines are used through different modules. SAVE your virtual machines. If you exit the lab without saving, you will be required to re-run some configurations again.
+>**Note**: Defender for Endpoint is a comprehensive solution for preventing, protecting, from, detecting, and automating the investigation of and response to threats on endpoints. It's a core part of Microsoft 365 Defender, which combines and orchestrates the capabilities of Defender for. Endpoint Defender for Office 365, Defender for Identity and Defender for Cloud apps. Several components defined Defender for endpoint.
 
 ## Lab objectives (Duration: 60 minutes)
 In this lab, you will perform the following:
