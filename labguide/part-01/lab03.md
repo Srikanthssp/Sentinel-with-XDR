@@ -54,6 +54,8 @@ In this task, you will perform the initialization of the Microsoft Defender for 
 
 In this task, you will onboard a device to Microsoft Defender for Endpoint using an onboarding script.
 
+>**Note**: As part of the initialization process, you may need to onboard devices to Defender for Endpoint. This involves installing agents or connectors on endpoints to enable monitoring and protection capabilities.
+
 1. In Microsoft Defender portal in your browser.
 
 1. Select **Settings** from the left menu bar, then from the Settings page select **Endpoints**.
