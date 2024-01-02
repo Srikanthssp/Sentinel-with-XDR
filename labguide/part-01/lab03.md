@@ -109,7 +109,7 @@ In this task, you will onboard a device to Microsoft Defender for Endpoint using
 
 ### Task 3: Configure Roles
 
-In this task, you will configure roles for use with device groups.
+In this task, you will configuring roles for use with device groups, enhancing access control and automation capabilities.
 
 1. Navigate back to **Azure Portal** [Azure portal](https://portal.azure.com).
 
