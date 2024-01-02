@@ -164,7 +164,7 @@ In this task, you will configuring roles for use with device groups, enhancing a
 
 ### Task 4: Configure Device Groups
 
-In this task, you will configure device groups that allow for access control and automation configuration.
+In this task, you will configure device groups to facilitate access control and automation configuration. It ensures effective grouping and remediation of devices.
 
  >**Note**: Please proceed with your tasks without waiting. It may take 1 - 2 hours to reflect, kindly procced with tasks and come return after completing all the labs and perform this task.
 
