@@ -173,7 +173,7 @@ In this task, you will configure roles in Microsoft Defender for Endpoint for ma
 
 ### Task 4: Configure Device Groups
 
-In this task, you will configure device groups to facilitate access control and automation configuration. It ensures effective grouping and remediation of devices.
+In this task, you will configure device groups in Microsoft Defender for Endpoint is important for effective access control, automation, and management of security policies. Device groups enable organizations to categorize and organize their devices based on specific criteria, allowing for targeted security measures.
 
  >**Note**: Please proceed with your tasks without waiting. It may take 1 - 2 hours to reflect, kindly procced with tasks and come return after completing all the labs and perform this task.
 
