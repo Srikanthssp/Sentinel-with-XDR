@@ -1,4 +1,4 @@
-## Lab 02 - Onboard Server Defender for Cloud  
+## Lab 02 - Deploy Microsoft Defender for Cloud  
 
 ## Lab scenario
 In this lab, you will setup Log ingestion from Microsoft Defender for Endpoint is to collect, process, and analyze security event logs from Microsoft Defender for Endpoint to enhance threat detection and response within the organization.
@@ -6,11 +6,26 @@ In this lab, you will setup Log ingestion from Microsoft Defender for Endpoint i
 ## Lab objectives (Duration: 120 minutes)
 
 In this lab, you will complete the following tasks:
-- Task 1: Onboard Server Defender for Cloud 
+
+
+
 
 ## Architecture Diagram
 
 ![](../media/Lab-2%20arch1.JPG)
+
+
+
+### Task 2: Deploy Microsoft Defender for Cloud  
+
+
+
+
+
+
+
+
+
 
 ### Task 1: Onboard Server to Defender for Cloud 
 
