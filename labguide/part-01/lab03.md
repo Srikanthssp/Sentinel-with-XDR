@@ -104,7 +104,9 @@ In this task, you will onboard a device to Microsoft Defender for Endpoint using
      ![Picture 1](../media/dd3.png)
 
     >**Note:** If you have completed the onboarding process and don't see devices in the Devices list after an hour, it might indicate an onboarding or connectivity problem.
-    
+
+    >**Note**: This task guides participants through the process of onboarding a device to Microsoft Defender for Endpoint using an onboarding script. It ensures that the device is effectively connected and capable of running detection tests.
+
 ### Task 3: Configure Roles
 
 In this task, you will configure roles for use with device groups.
