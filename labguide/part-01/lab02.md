@@ -10,7 +10,8 @@ In this lab, you will setup Log ingestion from Microsoft Defender for Endpoint i
 ## Lab objectives (Duration: 120 minutes)
 
 In this lab, you will complete the following tasks:
-
++ Task 1: Enabling Microsoft Defender for Cloud
++ Task 2: Onboard Servers to Defender for Cloud
 
 ## Architecture Diagram
 
@@ -116,3 +117,5 @@ Enabling Defender for Cloud on Azure subscriptions and extending its coverage to
 
 ### Review
 In this lab, you will complete the following tasks:
+Enabling Microsoft Defender for Cloud
+Onboard Servers to Defender for Cloud
