@@ -103,7 +103,7 @@ After you connect Defender for Cloud to your Azure subscription, you can start c
 
 1. Select **Microsoft Monitoring Agent** and on **Microsoft Monitoring Agent properties** window. You can review your configuration there and verify that the agent is connected.
 
-  >**Note**: This onboarding process allows you to extend the security monitoring and management capabilities of Defender for Cloud to your on-premises Windows servers. 
+>**Note**: These steps guide you through setting up the necessary components to connect your on-premises Windows servers to Microsoft Defender for Cloud. This integration allows you to leverage the security features, threat detection, and compliance management provided by Defender for Cloud for both your Azure and on-premises infrastructure.
 
 ## Review
 In this lab, you will complete the following tasks:
