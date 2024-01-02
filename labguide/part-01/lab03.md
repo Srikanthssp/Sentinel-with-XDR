@@ -1,5 +1,8 @@
 ## Lab 03 - Configuration and Management of Microsoft Defender for Endpoint
 
+## Lab Overview
+Microsoft Defender for Endpoint is an advanced endpoint security platform that plays a crucial role in securing enterprise networks. It provides a comprehensive set of security features to help organizations prevent, detect, investigate, and respond to advanced threats targeting their endpoints (such as computers, servers, and other devices).
+
 ## Lab scenario
 
 You are a Security Operations Analyst working at a company that is implementing Microsoft Defender for Endpoint. Your manager plans to onboard a few devices to provide insight into required changes to the Security Operations (SecOps) team response procedures.
