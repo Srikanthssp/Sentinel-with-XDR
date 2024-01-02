@@ -13,7 +13,6 @@ In this lab, you will complete the following tasks:
 ![](../media/Lab-2%20arch1.JPG)
 
 
-
 ### Task 1: Enabling Microsoft Defender for Cloud
 In this exercise, you will be getting started with the functionality of Microsoft Defender for Cloud and how to enable Microsoft Defender for Cloud on a subscription.
 
@@ -103,6 +102,8 @@ After you connect Defender for Cloud to your Azure subscription, you can start c
 1. From the start menu  search and select **Control panel** then select **System and Security**.
 
 1. Select **Microsoft Monitoring Agent** and on **Microsoft Monitoring Agent properties** window. You can review your configuration there and verify that the agent is connected.
+
+  >**Note**: This onboarding process allows you to extend the security monitoring and management capabilities of Defender for Cloud to your on-premises Windows servers. 
 
 ## Review
 In this lab, you will complete the following tasks:
