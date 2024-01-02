@@ -80,7 +80,9 @@ After you connect Defender for Cloud to your Azure subscription, you can start c
 
 1. On **sentinelworkspace | Agents management** page, expand **Log Analytics agent instructions** copy the Workspace ID and Primary key in notepad you needs this values in next step.
 
-2. Click on **Download Windows Agent(64 bit)** link.
+   >**Note**: When you add a Windows server, you need to get the information on the Agents management page and download the appropriate agent file
+
+1. Click on **Download Windows Agent(64 bit)** link.
 
 1. Open downloaded **MMASetup-AMD64.exe** file
 
