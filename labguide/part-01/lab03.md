@@ -43,7 +43,7 @@ In this task, you will perform the initialization of the Microsoft Defender for 
     >**Note:** If you do not see the **Device discovery** option under **Settings**, it may take  1 - 2 hours to reflect so kindly procced with next task and come back after performing next tasks and log out by selecting the top-right circle with your account initials and select **Sign out** and **Sign in** perform this task. 
 
 1. In the Discovery setup make sure **Standard discovery (recommended)** is selected. 
-    >**Hint:** If you do not see the option, refresh the page.
+    >**Note:** If you do not see the option, refresh the page.
 
      ![Picture 1](../media/dd2.png)
    
@@ -77,7 +77,7 @@ In this task, you will onboard a device to Microsoft Defender for Endpoint using
 
 1. Right-click on the extracted file **WindowsDefenderATPLocalOnboardingScript.cmd** again and choose **Run as Administrator**.
 
-   **Hint:** If you encounter the Windows SmartScreen window, select on **More info**, and choose **Run anyway**. 
+   **Note:** If you encounter the Windows SmartScreen window, select on **More info**, and choose **Run anyway**. 
     
 1. If **User Account Control** window is prompted, select **Yes** to allow the script to run.
 
