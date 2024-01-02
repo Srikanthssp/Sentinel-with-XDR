@@ -13,11 +13,11 @@ You start by initializing the Defender for the Endpoint environment. Subsequentl
 
 ## Lab objectives (Duration: 60 minutes)
 In this lab, you will perform the following:
-- Task 1: Preparing the Microsoft Defender workspace
-- Task 2: Initialize Microsoft Defender for Endpoint
-- Task 3: Onboard a Device
-- Task 4: Configure Roles
-- Task 5: Configure Device Groups
+
+- Task 1: Initialize Microsoft Defender for Endpoint
+- Task 2: Onboard a Device
+- Task 3: Configure Roles
+- Task 4: Configure Device Groups
 
 ## Architecture Diagram
 
