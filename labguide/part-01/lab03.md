@@ -27,6 +27,8 @@ In this lab, you will perform the following:
 
 In this task, you will perform the initialization of the Microsoft Defender for the Endpoint portal.
 
+>**Note**: Initializing Microsoft Defender for Endpoint is a critical step in setting up and configuring the security platform for effective protection of your organization's endpoints. The initialization process involves configuring various settings and options to ensure that Defender for Endpoint is tailored to the specific needs and security requirements of your environment.
+
 1. In the Edge browser on the Lab VM, navigate to the Microsoft Defender portal at (https://security.microsoft.com) and log in using the provided credentials.
 
    - Email/Username: <inject key="AzureAdUserEmail"></inject> and then select Next.
