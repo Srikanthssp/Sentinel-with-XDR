@@ -7,7 +7,7 @@ Microsoft Defender for Endpoint is an advanced endpoint security platform that p
 
 You are a Security Operations Analyst working at a company that is implementing Microsoft Defender for Endpoint. Your manager plans to onboard a few devices to provide insight into required changes to the Security Operations (SecOps) team response procedures.
 
-You start by initializing the Defender for the Endpoint environment. Next, you onboard the initial devices for your deployment by running the onboarding script on the devices. You configure security for the environment. Lastly, you create Device groups and assign the appropriate devices.
+You start by initializing the Defender for the Endpoint environment. Next, you onboard SVM devices for your deployment by running the onboarding script on the devices. You configure security for the environment. Lastly, you create Device groups and assign the appropriate devices.
 
 >**Note**: Defender for Endpoint is a comprehensive solution for preventing, protecting, from, detecting, and automating the investigation of and response to threats on endpoints. It's a core part of Microsoft 365 Defender, which combines and orchestrates the capabilities of Defender for. Endpoint Defender for Office 365, Defender for Identity and Defender for Cloud apps. Several components defined Defender for endpoint.
 
@@ -56,7 +56,7 @@ In this task, you will perform the initialization of the Microsoft Defender for 
 
 In this task, you will onboard a device to Microsoft Defender for Endpoint using an onboarding script.
 
->**Note**: As part of the initialization process, you may need to onboard devices to Defender for Endpoint. This involves installing agents or connectors on endpoints to enable monitoring and protection capabilities.
+>**Note**: Onboarding devices to Microsoft Defender for Endpoint is required to ensure that the security platform can actively monitor, protect, and respond to potential threats on each device within your organization's network. The onboarding process involves installing the necessary agents or connectors on devices, establishing a connection with Defender for Endpoint, and enabling the platform to carry out security functions.
 
 1. In Microsoft Defender portal in your browser.
 
