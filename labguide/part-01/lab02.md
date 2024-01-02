@@ -1,6 +1,6 @@
 ## Lab 02 - Enabling Microsoft Defender for Cloud
 
-## Lab Overview
+## Lab overview
 
 Enabling Microsoft Defender for Cloud is a proactive measure to secure Azure resources, identify vulnerabilities, and respond to potential security threats. This process enhances the overall security posture and ensures compliance in the dynamic cloud computing landscape. Subsequently, onboarding on-premises servers extends the security framework to cover both Azure and local infrastructure.
 
