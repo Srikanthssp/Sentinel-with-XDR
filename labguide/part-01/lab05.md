@@ -1,8 +1,5 @@
 ## Lab 05 - Ingest Logs from Microsoft Defender for Endpoint
 
-## Lab overview
-This lab focuses on enhancing the security capabilities by enabling Microsoft Defender for Cloud to monitor events and ingest logs into Azure Sentinel. The objective is to strengthen threat detection, response, and analysis within the Azure environment.
-
 ## Lab scenario
 Microsoft Defender for Endpoint is an enterprise endpoint security platform designed to help enterprise networks prevent, detect, investigate, and respond to advanced threats. In this lab, Ingest Logs from Microsoft Defender for Endpoint is to collect, process, and analyze security event logs from Microsoft Defender for Endpoint to enhance threat detection and response within the organization.
 
