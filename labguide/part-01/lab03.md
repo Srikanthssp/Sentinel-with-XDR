@@ -223,7 +223,6 @@ This lab provides hands-on experience in setting up and configuring Microsoft De
 
 ### Review
 In this lab, you will perform the following:
-- Preparing the Microsoft 365 Defender workspace
 - Initialize Microsoft Defender for Endpoint
 - Onboard a Device
 - Configure Roles
