@@ -5,7 +5,7 @@ Microsoft Defender for Endpoint is an advanced endpoint security platform that p
 
 ## Lab scenario
 
-You are a Security Operations Analyst working at a company that is implementing Microsoft Defender for Endpoint. Your manager plans to onboard a few devices to provide insight into required changes to the Security Operations (SecOps) team response procedures.
+In this lab, the focus is on configuring and managing Microsoft Defender for Endpoint to establish a robust security posture within the organization's endpoint infrastructure.
 
 You start by initializing the Defender for the Endpoint environment. Subsequently, run the onboarding script on SVM devices to seamlessly integrate them into Defender for Endpoint, ensuring continuous monitoring. Proceed to configure security parameters and establish robust security measures tailored to the environment. configure roles for effective access control. Finally, conclude the deployment by creating device groups, categorizing devices based on criteria, and assigning them to optimize security across different segments of the deployment.
 
