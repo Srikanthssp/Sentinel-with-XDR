@@ -208,7 +208,11 @@ In this task, you will configure device groups to facilitate access control and 
 
    ![](../media/lab3-image12.png)
 
-## Review
+### Conclusion
+
+This lab provides hands-on experience in setting up and configuring Microsoft Defender for Endpoint, ensuring optimal security measures, effective onboarding of devices, role configuration, and device grouping for access control and automation. Gain practical insights into securing their Azure environment and responding to potential threats.
+
+### Review
 In this lab, you will perform the following:
 - Preparing the Microsoft 365 Defender workspace
 - Initialize Microsoft Defender for Endpoint
