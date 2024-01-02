@@ -18,11 +18,11 @@ In this task, you will create a Log Analytics workspace for use with Microsoft D
 
 1.  On Azure Portal page, in **Search resources, services and docs (G+/)** box at the top of the portal, enter **Log Analytics workspaces**, and then select **Log Analytics workspaces** under services.
  
-   ![](../media/image8.png)
+     ![](../media/image8.png)
 
 1. Select **+ Create** from the command bar.
     
-   ![](../media/image9.png)
+    ![](../media/image9.png)
 
 1. From the basics tab of the Create Log Analytics workspace, enter the following and Select **Review + Create**.
 
