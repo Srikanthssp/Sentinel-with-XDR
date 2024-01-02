@@ -8,8 +8,6 @@ In this lab, you will setup Log ingestion from Microsoft Defender for Endpoint i
 In this lab, you will complete the following tasks:
 
 
-
-
 ## Architecture Diagram
 
 ![](../media/Lab-2%20arch1.JPG)
@@ -34,12 +32,6 @@ In this exercise, you will be getting started with the functionality of Microsof
      ![Picture 1](../media/image_50.png)
 
 1. Review the Azure resources that are now protected with the Defender for Cloud plans.
-
-
-
-### Task 2: Onboard Server to Defender for Cloud 
-
-In this task, you will enable and configure Microsoft Defender for Cloud.
 
 
 1. Click on **Defender Plans** on left blade. Then you need to click on **Settings&Monitoring** inbetween the page at top left.
@@ -67,6 +59,46 @@ In this task, you will enable and configure Microsoft Defender for Cloud.
    >**Note:** Skip this step if services already enabled
    
 1. Close the Defender plans page by selecting the 'X' on the upper right of the page to go back to the **Environment settings**
+
+
+### Onboard Servers to Defender for Cloud  
+After you connect Defender for Cloud to your Azure subscription, you can start connecting your on-premises machines from the Getting started page in Defender for Cloud.
+
+1.  On Azure Portal page, in **Search resources, services and docs (G+/)** box at the top of the portal, enter **Microsoft Defender for Cloud**, and then select **Microsoft Defender for Cloud** under services.
+
+1. On the Defender for Cloud menu, select Getting started.
+
+1. Select the Get started tab.
+
+1. Find Add non-Azure servers and select Configure.
+
+1. Select sentialworkspace Log Analytics workspaces that appears.
+
+1. From the list of workspaces, select Upgrade for the relevant workspace to turn on Defender for Cloud paid plans for 30 free days.
+
+1. From the list of workspaces, select Add Servers for the relevant workspace.
+
+1. On **sentinelworkspace | Agents management** page, expand **Log Analytics agent instructions** copy the Workspace ID and Primary key in notepad you needs this values in next step.
+
+2. Click on **Download Windows Agent(64 bit)** link.
+
+1. Open downloaded **MMASetup-AMD64.exe** file
+
+1. On **Welcome to the Microsoft Monitoring Agent Setup Wizard** window, click **Next**.
+
+1. On the **Important Notice** window, click **I Agree**.
+
+1. On **Destination Folder** window, click **Next**.
+
+1. On **Agent Setup Option** window select the option **Connect the agent to Azure Log Ananlytics(OMS)**.
+
+1. On **Azure Log Analytics** window, Paste Workspace ID and Primart Key and click **Next** > **Install**.
+
+1. On **Microsoft Monitoring Agent configuration completed successfully**, click finish.
+
+1. From the start menu  search and select **Control panel** then select **System and Security**.
+
+1. Select **Microsoft Monitoring Agent** and on **Microsoft Monitoring Agent properties** window. You can review your configuration there and verify that the agent is connected.
 
 ## Review
 In this lab, you will complete the following tasks:
