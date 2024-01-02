@@ -1,4 +1,8 @@
-## Lab 02 - Onboard Server Defender for Cloud  
+## Lab 02 - Enabling Microsoft Defender for Cloud
+
+## Lab overview
+
+Enabling Microsoft Defender for Cloud is a proactive measure to secure Azure resources, identify vulnerabilities, and respond to potential security threats. This process enhances the overall security posture and ensures compliance in the dynamic cloud computing landscape. Subsequently, onboarding on-premises servers extends the security framework to cover both Azure and local infrastructure.
 
 ## Lab scenario
 In this lab, you will setup Log ingestion from Microsoft Defender for Endpoint is to collect, process, and analyze security event logs from Microsoft Defender for Endpoint to enhance threat detection and response within the organization.
@@ -6,15 +10,18 @@ In this lab, you will setup Log ingestion from Microsoft Defender for Endpoint i
 ## Lab objectives (Duration: 120 minutes)
 
 In this lab, you will complete the following tasks:
-- Task 1: Onboard Server Defender for Cloud 
++ Task 1: Enabling Microsoft Defender for Cloud
++ Task 2: Onboard Servers to Defender for Cloud
 
 ## Architecture Diagram
 
 ![](../media/Lab-2%20arch1.JPG)
 
-### Task 1: Onboard Server to Defender for Cloud 
 
-In this task, you will enable and configure Microsoft Defender for Cloud.
+### Task 1: Enabling Microsoft Defender for Cloud
+In this task, you will be getting started with the functionality of Microsoft Defender for Cloud and how to enable Microsoft Defender for Cloud on a subscription.
+
+   >**Note**: Enabling Microsoft Defender for Cloud is a proactive step toward securing your Azure resources, identifying vulnerabilities, and responding to potential security threats. It helps organizations maintain a robust security posture and adhere to compliance standards in the dynamic landscape of cloud computing.
 
 1.  On Azure Portal page, in **Search resources, services and docs (G+/)** box at the top of the portal, enter **Microsoft Defender for Cloud**, and then select **Microsoft Defender for Cloud** under services.
 
@@ -31,6 +38,7 @@ In this task, you will enable and configure Microsoft Defender for Cloud.
      ![Picture 1](../media/image_50.png)
 
 1. Review the Azure resources that are now protected with the Defender for Cloud plans.
+
 
 1. Click on **Defender Plans** on left blade. Then you need to click on **Settings&Monitoring** inbetween the page at top left.
 
@@ -58,6 +66,56 @@ In this task, you will enable and configure Microsoft Defender for Cloud.
    
 1. Close the Defender plans page by selecting the 'X' on the upper right of the page to go back to the **Environment settings**
 
-## Review
+   >**Note**: Enabling Microsoft Defender for Cloud enhances the security of your Azure environment by providing personalized security recommendations, detecting and responding to threats, conducting vulnerability assessments, and ensuring compliance with regulatory standards. It centralizes security management, offers just-in-time access control, and integrates with Azure Policy for enforcing organizational standards.
+   
+### Task 2: Onboard Servers to Defender for Cloud  
+After you connect Defender for Cloud to your Azure subscription, you can start connecting your on-premises machines from the Getting started page in Defender for Cloud.
+
+1.  On Azure Portal page, in **Search resources, services and docs (G+/)** box at the top of the portal, enter **Microsoft Defender for Cloud**, and then select **Microsoft Defender for Cloud** under services.
+
+1. On the Defender for Cloud menu, select Getting started.
+
+1. Select the Get started tab.
+
+1. Find Add non-Azure servers and select Configure.
+
+1. Select sentialworkspace Log Analytics workspaces that appears.
+
+1. From the list of workspaces, select Upgrade for the relevant workspace to turn on Defender for Cloud paid plans for 30 free days.
+
+1. From the list of workspaces, select Add Servers for the relevant workspace.
+
+1. On **sentinelworkspace | Agents management** page, expand **Log Analytics agent instructions** copy the Workspace ID and Primary key in notepad you needs this values in next step.
+
+   >**Note**: When you add a Windows server, you need to get the information on the Agents management page and download the appropriate agent file
+
+1. Click on **Download Windows Agent(64 bit)** link.
+
+1. Open downloaded **MMASetup-AMD64.exe** file
+
+1. On **Welcome to the Microsoft Monitoring Agent Setup Wizard** window, click **Next**.
+
+1. On the **Important Notice** window, click **I Agree**.
+
+1. On **Destination Folder** window, click **Next**.
+
+1. On **Agent Setup Option** window select the option **Connect the agent to Azure Log Ananlytics(OMS)**.
+
+1. On **Azure Log Analytics** window, Paste Workspace ID and Primart Key and click **Next** > **Install**.
+
+1. On **Microsoft Monitoring Agent configuration completed successfully**, click finish.
+
+1. From the start menu  search and select **Control panel** then select **System and Security**.
+
+1. Select **Microsoft Monitoring Agent** and on **Microsoft Monitoring Agent properties** window. You can review your configuration there and verify that the agent is connected.
+
+>**Note**: These steps guide you through setting up the necessary components to connect your on-premises Windows servers to Microsoft Defender for Cloud. This integration allows you to leverage the security features, threat detection, and compliance management provided by Defender for Cloud for both your Azure and on-premises infrastructure.
+
+### Conclusion
+
+Enabling Defender for Cloud on Azure subscriptions and extending its coverage to on-premises servers. The proactive security measures align with broader organizational goals, emphasizing continuous monitoring, threat detection, and compliance adherence across the entire hybrid cloud environment. This comprehensive approach ensures a holistic and effective security posture for both Azure and local infrastructure.
+
+### Review
 In this lab, you will complete the following tasks:
-- Onboard Server to Defender for Cloud.
+Enabling Microsoft Defender for Cloud
+Onboard Servers to Defender for Cloud

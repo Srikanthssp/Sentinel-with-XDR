@@ -1,20 +1,23 @@
-## Lab 03 - Deploy Microsoft Defender for Endpoint
+## Lab 03 - Configuration and Management of Microsoft Defender for Endpoint
+
+## Lab overview
+Microsoft Defender for Endpoint is an advanced endpoint security platform that plays a crucial role in securing enterprise networks. It provides a comprehensive set of security features to help organizations prevent, detect, investigate, and respond to advanced threats targeting their endpoints (such as computers, servers, and other devices).
 
 ## Lab scenario
 
-You are a Security Operations Analyst working at a company that is implementing Microsoft Defender for Endpoint. Your manager plans to onboard a few devices to provide insight into required changes to the Security Operations (SecOps) team response procedures.
+In this lab, the focus is on configuring and managing Microsoft Defender for Endpoint to establish a robust security posture within the organization's endpoint infrastructure.
 
-You start by initializing the Defender for the Endpoint environment. Next, you onboard the initial devices for your deployment by running the onboarding script on the devices. You configure security for the environment. Lastly, you create Device groups and assign the appropriate devices.
+You start by initializing the Defender for the Endpoint environment. Subsequently, run the onboarding script on SVM devices to seamlessly integrate them into Defender for Endpoint, ensuring continuous monitoring. Proceed to configure security parameters and establish robust security measures tailored to the environment. configure roles for effective access control. Finally, conclude the deployment by creating device groups, categorizing devices based on criteria, and assigning them to optimize security across different segments of the deployment.
 
->**Important:**  The lab Virtual Machines are used through different modules. SAVE your virtual machines. If you exit the lab without saving, you will be required to re-run some configurations again.
+>**Note**: Defender for Endpoint is a comprehensive solution for preventing, protecting, from, detecting, and automating the investigation of and response to threats on endpoints. It's a core part of Microsoft 365 Defender, which combines and orchestrates the capabilities of Defender for. Endpoint Defender for Office 365, Defender for Identity and Defender for Cloud apps. Several components defined Defender for endpoint.
 
 ## Lab objectives (Duration: 60 minutes)
 In this lab, you will perform the following:
-- Task 1: Preparing the Microsoft Defender workspace
-- Task 2: Initialize Microsoft Defender for Endpoint
-- Task 3: Onboard a Device
-- Task 4: Configure Roles
-- Task 5: Configure Device Groups
+
+- Task 1: Initialize Microsoft Defender for Endpoint
+- Task 2: Onboard a Device
+- Task 3: Configure Roles
+- Task 4: Configure Device Groups
 
 ## Architecture Diagram
 
@@ -23,6 +26,8 @@ In this lab, you will perform the following:
 ### Task 1: Initialize Microsoft Defender for Endpoint
 
 In this task, you will perform the initialization of the Microsoft Defender for the Endpoint portal.
+
+>**Note**: Initializing Microsoft Defender for Endpoint is a critical step in setting up and configuring the security platform for effective protection of your organization's endpoints. The initialization process involves configuring various settings and options to ensure that Defender for Endpoint is tailored to the specific needs and security requirements of your environment.
 
 1. In the Edge browser on the Lab VM, navigate to the Microsoft Defender portal at (https://security.microsoft.com) and log in using the provided credentials.
 
@@ -43,13 +48,15 @@ In this task, you will perform the initialization of the Microsoft Defender for 
     >**Note:** If you do not see the **Device discovery** option under **Settings**, it may take  1 - 2 hours to reflect so kindly procced with next task and come back after performing next tasks and log out by selecting the top-right circle with your account initials and select **Sign out** and **Sign in** perform this task. 
 
 1. In the Discovery setup make sure **Standard discovery (recommended)** is selected. 
-    >**Hint:** If you do not see the option, refresh the page.
+    >**Note:** If you do not see the option, refresh the page.
 
      ![Picture 1](../media/dd2.png)
    
 ### Task 2: Onboard a Device
 
 In this task, you will onboard a device to Microsoft Defender for Endpoint using an onboarding script.
+
+>**Note**: Onboarding devices to Microsoft Defender for Endpoint is required to ensure that the security platform can actively monitor, protect, and respond to potential threats on each device within your organization's network. The onboarding process involves installing the necessary agents or connectors on devices, establishing a connection with Defender for Endpoint, and enabling the platform to carry out security functions.
 
 1. In Microsoft Defender portal in your browser.
 
@@ -67,7 +74,9 @@ In this task, you will onboard a device to Microsoft Defender for Endpoint using
 
     ![Picture 1](../media/image3-lab3.png)
    
-1. Under the *Downloads* pop-up, highlight the "WindowsDefenderATPOnboardingPackage.zip" file with your mouse and select the folder icon **Show in folder**. **Hint:** In case you don't see it, the file should be in the c:\users\demouser\downloads directory.
+1. Under the *Downloads* pop-up, highlight the "WindowsDefenderATPOnboardingPackage.zip" file with your mouse and select the folder icon **Show in folder**.
+
+   >**Note:** In case you don't see it, the file should be in the c:\users\demouser\downloads directory.
 
 1. Right-click the downloaded zip file and select **Extract All...**, make sure that **Show extracted files when complete** is checked and select **Extract**.
 
@@ -77,7 +86,7 @@ In this task, you will onboard a device to Microsoft Defender for Endpoint using
 
 1. Right-click on the extracted file **WindowsDefenderATPLocalOnboardingScript.cmd** again and choose **Run as Administrator**.
 
-   **Hint:** If you encounter the Windows SmartScreen window, select on **More info**, and choose **Run anyway**. 
+   **Note:** If you encounter the Windows SmartScreen window, select on **More info**, and choose **Run anyway**. 
     
 1. If **User Account Control** window is prompted, select **Yes** to allow the script to run.
 
@@ -104,10 +113,12 @@ In this task, you will onboard a device to Microsoft Defender for Endpoint using
      ![Picture 1](../media/dd3.png)
 
     >**Note:** If you have completed the onboarding process and don't see devices in the Devices list after an hour, it might indicate an onboarding or connectivity problem.
-    
+
+    >**Note**: This task guides participants through the process of onboarding a device to Microsoft Defender for Endpoint using an onboarding script. It ensures that the device is effectively connected and capable of running detection tests.
+
 ### Task 3: Configure Roles
 
-In this task, you will configure roles for use with device groups.
+In this task, you will configure roles in Microsoft Defender for Endpoint for managing access control, permissions, and responsibilities within the security platform. Roles define what actions users or groups of users can perform within the Defender for Endpoint environment. 
 
 1. Navigate back to **Azure Portal** [Azure portal](https://portal.azure.com).
 
@@ -162,7 +173,7 @@ In this task, you will configure roles for use with device groups.
 
 ### Task 4: Configure Device Groups
 
-In this task, you will configure device groups that allow for access control and automation configuration.
+In this task, you will configure device groups in Microsoft Defender for Endpoint is important for effective access control, automation, and management of security policies. Device groups enable organizations to categorize and organize their devices based on specific criteria, allowing for targeted security measures.
 
  >**Note**: Please proceed with your tasks without waiting. It may take 1 - 2 hours to reflect, kindly procced with tasks and come return after completing all the labs and perform this task.
 
@@ -206,9 +217,12 @@ In this task, you will configure device groups that allow for access control and
 
    ![](../media/lab3-image12.png)
 
-## Review
+### Conclusion
+
+This lab provides hands-on experience in setting up and configuring Microsoft Defender for Endpoint, ensuring optimal security measures, effective onboarding of devices, role configuration, and device grouping for access control and automation. Gain practical insights into securing their Azure environment and responding to potential threats.
+
+### Review
 In this lab, you will perform the following:
-- Preparing the Microsoft 365 Defender workspace
 - Initialize Microsoft Defender for Endpoint
 - Onboard a Device
 - Configure Roles

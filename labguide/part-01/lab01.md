@@ -1,7 +1,11 @@
-## Lab 01 - Setup Sentinel Environment
+## Lab 01 - Setup Sentinel Workspace
 
-## Overview
- You are a Security Operations Analyst working at a company . You will start creating a Log Analytics workspace which is a unique environment for log data from Azure Monitor and other Azure services, such as Microsoft Sentinel and Microsoft Defender for Cloud. You will also create Microsoft Sentinel instance to
+## Lab overview
+In the initial phase of setting up the security infrastructure, the focus is on creating essential components to monitor and analyze security events. This involves creating a Log Analytics workspace and a Microsoft Sentinel workspace, laying the foundation for subsequent security measures.
+
+## Lab scenario
+
+In this lab, you will undertake the essential task of setting up Log Analytics provides a centralized location to store and query data, while Sentinel serves as the platform for advanced security analysis. These workspaces enable proactive threat detection and incident response.
 
 ## Lab objectives ( Duration: 30 minutes)
 In this lab, you will complete the following tasks:
@@ -18,11 +22,11 @@ In this task, you will create a Log Analytics workspace for use with Microsoft D
 
 1.  On Azure Portal page, in **Search resources, services and docs (G+/)** box at the top of the portal, enter **Log Analytics workspaces**, and then select **Log Analytics workspaces** under services.
  
-   ![](../media/image8.png)
+     ![](../media/image8.png)
 
 1. Select **+ Create** from the command bar.
     
-   ![](../media/image9.png)
+    ![](../media/image9.png)
 
 1. From the basics tab of the Create Log Analytics workspace, enter the following and Select **Review + Create**.
 
@@ -78,6 +82,10 @@ In this task, you will create Microsoft Sentinel workspace where you will be mon
 
 1. Keep this page open, as you will use it in the next task.
 
+### Conclusion
+
+Upon completing these tasks, the organization now possesses the necessary infrastructure to monitor and respond to security events. Log Analytics and Sentinel workspaces are essential tools for maintaining a secure environment in the dynamic landscape of cloud computing.
+ 
 ## Review
 In this lab, you will complete the following tasks:
 - Create a Log Analytics Workspace
