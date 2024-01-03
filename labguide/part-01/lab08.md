@@ -59,7 +59,7 @@ In this task, you will explore the Microsoft Sentinel .
 
 1. Set the Primary Log Analytics workspace. This should be the workspace where Microsoft Sentinel is installed. In our case, select **sentinelworkspace**.
 
-1. Select the **Remediation** tab and mark the Create a remediation task checkbox.
+1. Select the **Remediation** tab and **mark** the Create a remediation task checkbox.
 
 1. Select Review + create and Create.
 
