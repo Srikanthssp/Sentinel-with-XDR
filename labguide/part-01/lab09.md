@@ -2,8 +2,8 @@
 
 ## Lab scenario
 
-In this lab, you will set up log ingestion from Microsoft 365 into a SIEM (Security Information and Event Management) solution for security monitoring and analysis.
-
+In this lab, you will set up log ingestion from Microsoft 365 into a SIEM (Security Information and Event Management) solution for security monitoring and analysis, to view dashboards, create custom alerts, and improve your investigation process.​
+ 
 ## Lab objectives (Duration: 45 minutes)
 In this lab, you will complete the following tasks:
 - Task 1: Ingesting logs from Microsoft Entra ID to Sentinel
