@@ -1,17 +1,22 @@
 ## Lab 06 - Ingest Logs from Microsoft Entra ID
 
+## Lab Overview
+Gain insights into Microsoft Entra ID by connecting Audit and Sign-in logs to Microsoft Sentinel to gather insights around Microsoft Entra ID scenarios. You can learn about app usage, conditional access policies, legacy auth relate details using our Sign-in logs. You can get information on your Self Service Password Reset (SSPR) usage, Microsoft Entra ID Management activities like user, group, role, app management using our Audit logs table.
+
 ## Lab scenario
 Microsoft Entra ID is an integrated cloud identity and access solution. In this lab, you will enable the ingestion of logs from Microsoft Entra ID into Security Information and Event Management (SIEM) solution to enhance security monitoring and analytical capabilities.
 
 ## Lab objectives (Duration: 45 minutes)
 In this lab, you will complete the following tasks:
-- Task 1: Ingesting logs from Microsoft Entra ID to Sentinel
+- Task 1: Install Microsoft Entra ID data connector to Sentinel
+- Task 2: Set up the data connector to ingest logs to workspace
+- Task 3: View data ingested into Microsoft Sentinel
 
 ## Architecture Diagram
 
    ![](../media/lab08.png)
 
-### Task 1: Ingesting logs from Microsoft Entra ID to Sentinel 
+### Task 1: Install Microsoft Entra ID data connector to Sentinel
 
 In this task, you will explore the Microsoft Sentinel .
 
@@ -25,7 +30,7 @@ In this task, you will explore the Microsoft Sentinel .
 
      ![Picture 1](../media/image_44.png)
 
-1. Search for and select the **Microsoft Entra ID** connector. Select the AD connector.
+1. Search and select the **Microsoft Entra ID** connector.
 
    ![Picture 1](../media/image_45.png)
 
@@ -44,5 +49,33 @@ In this task, you will explore the Microsoft Sentinel .
 
    ![Picture 1](../media/image_54.png)   
 
+### Task 2: Set up the data connector to ingest logs to workspace
+
+1. In Microsoft Sentinel, select Data connectors.
+
+1. Search for and select the **Microsoft Entra ID** connector.
+
+1. In the details pane for the connector, select Open connector page.
+
+1. On the **Instructions** page, under configuration, select the required record types data to be collected and click on **Apply changes**
+
+   ![Picture 1](../media/s61.png)
+
+  >**Note**: Wait for atleast 15 mins and proceed to next task.
+
+### Task 3: View data ingested into Microsoft Sentinel
+
+1. In Microsoft Sentinel, select Data connectors.
+
+1. Search for and select the **Microsoft Entra ID** data connector.
+
+1. In the details pane for the connector, select Open connector page.
+
+1. Review the Status of the data connector. It should be Connected.
+
+1. Scroll down and select **Go to log analytics**.
+
+1. In the query pane, run the default query generated to view the activity data ingested into the workspace.
+   
 ## Review
 In this lab we have completed Ingesting logs from Microsoft Entra ID to Sentinel.
