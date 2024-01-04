@@ -21,7 +21,8 @@ In this lab, you will complete the following tasks:
 In this task, you will explore the Microsoft Sentinel .
 
 1. On Azure Portal page, in **Search resources, services and docs (G+/)** box at the top of the portal, enter **Microsoft Sentinel**, and then select **Microsoft Sentinel** under services.
-     ![Picture 1](../media/image_7.png)
+   
+    ![Picture 1](../media/image_7.png)
 
 1. Select **sentinelworkspace**.
 
