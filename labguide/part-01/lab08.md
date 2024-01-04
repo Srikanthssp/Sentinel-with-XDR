@@ -1,15 +1,21 @@
 ## Lab 08 - Ingest Logs from Azure Network security Groups
 
-## Lab scenario
+## Lab Overview
 
-A network security group contains security rules that allow or deny inbound network traffic to, or outbound network traffic from, several types of Azure resources. In this lab, you configure the integration of Network security group logs with a Security Information and Event Management (SIEM) system to enable thorough security monitoring and analysis.
+A network security group contains security rules that allow or deny inbound network traffic to, or outbound network traffic from, several types of Azure resources.
 
 When you enable logging for an NSG, you can gather the following types of resource log information:
 
   * **Event**: Entries are logged for which NSG rules are applied to VMs, based on MAC address.
   * **Rule counter**: Contains entries for how many times each NSG rule is applied to deny or allow traffic. The status for these rules is collected every 300 seconds.
 
-This connector lets you stream your NSG diagnostics logs into Microsoft Sentinel, allowing you to continuously monitor activity in all your instances.
+The Network Security Group connector lets you stream your NSG diagnostics logs into Microsoft Sentinel, allowing you to continuously monitor activity in all your instances.
+
+## Lab scenario
+
+ In this lab, you configure the integration of Network security group logs with a Security Information and Event Management (SIEM) system to enable thorough security monitoring and analysis.
+
+
 
 ## Lab objectives (Duration: 45 minutes)
 In this lab, you will complete the following tasks:
