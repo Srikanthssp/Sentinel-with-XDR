@@ -77,7 +77,7 @@ In this task, you will explore the Microsoft Sentinel .
 
 1. Scroll down and select **Go to log analytics**.
 
-1. In the query pane, run the following query to view the activity data ingested into the workspace.
+1. In the query pane, run the default query generated to view the activity data ingested into the workspace.
    
    ![Picture 1](../media/s32.png)
     
