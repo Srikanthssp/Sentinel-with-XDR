@@ -29,9 +29,9 @@ In this task, you will be getting started with the functionality of Microsoft De
 
 1. From left navigation menu and click on **Getting started**.
 
-1. On the **Getting Started** page, under the **Upgrade** tab, make sure your subscription is selected and then select the **Upgrade** button at the bottom of the page.
+1. On the **Getting Started** page, under the **Upgrade** tab, make sure **sentinelworkspace** is selected and then select the **Upgrade** button at the bottom of the page.
 
-    ![](../media/image_60.png)
+    ![](../media/s11.png)
 
 1. From the left menu, select **Environment settings** under **Management** section and select the subscription.
 
