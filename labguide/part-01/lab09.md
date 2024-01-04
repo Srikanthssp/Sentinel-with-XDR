@@ -1,9 +1,9 @@
 ## Lab 09 - Ingest Logs from Microsoft 365
 
-## Lab scenario
-
+## Lab Overview
 The Microsoft 365 (formerly, Office 365) activity log connector provides insight into ongoing user activities. It will provide the details of operations such as file downloads, access requests sent, changes to group events, set-mailbox and details of the user who performed the actions.
 
+## Lab scenario
 In this lab, you will set up log ingestion from Microsoft 365 into a SIEM (Security Information and Event Management) solution for security monitoring and analysis, to view dashboards, create custom alerts, and improve your investigation process.​
 
 ## Lab objectives (Duration: 45 minutes)
