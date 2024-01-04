@@ -1,9 +1,9 @@
 ## Lab 10 - Ingest Logs from Microsoft Azure Activity
 
-## Lab scenario
-
+## Lab Overview
 Azure Activity Log is a subscription log that provides insight into subscription-level events that occur in Azure, including events from Azure Resource Manager operational data, service health events, write operations taken on the resources in your subscription, and the status of activities performed in Azure. 
 
+## Lab scenario
 In this lab, you will configure the integration of Microsoft Azure Activity logs with a Security Information and Event Management (SIEM) system to enable thorough security monitoring and analysis.
 
 ## Lab objectives (Duration: 45 minutes)
