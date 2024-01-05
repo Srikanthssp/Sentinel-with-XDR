@@ -65,10 +65,12 @@ In this task, you will create a watchlist in Microsoft Sentinel.
 1. Review the settings you entered and select **Create**.
 
 1. The screen returns to the Watchlist page.
-
+   
+   >**Note**: The watchlist is configured to trigger alerts or incidents whenever there is suspicious or unauthorized activity involving the high-value hostnames. This can include unusual access patterns, login attempts, or any other behavior that deviates from the normal usage pattern.
+   
 1. Select the *HighValueHosts* watchlist and on the right pane, select **View in logs**.
 
-    >**Important:** It could take up to ten minutes for the watchlist to appear. **Please continue to with the following task and run this command on the next lab**.
+    >**Important**: It could take up to ten minutes for the watchlist to appear. **Please continue to with the following task and run this command on the next lab**.
     
     >**Note:** You can now use the _GetWatchlist('HighValueHosts') in your own KQL statements to access the list. The column to reference would be *Hostname*.
 
@@ -88,7 +90,7 @@ In this task, you will create an indicator in Microsoft Sentinel.
 
 1. For the *Name*, enter the same value used for the Domain. An example would be **onmicrosoft.com**.
 
-1. Set the **Valid from* field to today's date. and **valid till* to next day 
+1. Set the *Valid from* field to today's date. and *valid till* to next day 
 
 1. Select **Apply**.
 
