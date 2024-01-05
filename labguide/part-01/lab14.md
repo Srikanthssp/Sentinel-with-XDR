@@ -1,10 +1,10 @@
 ## Lab 14 - Create queries for Microsoft Sentinel using Kusto Query Language (KQL)
 
+## Lab Overview
+Kusto Query Language (KQL) is a query language developed by Microsoft for querying and analyzing data stored in Microsoft Sentinel, Azure Data Explorer, Azure Monitor, Azure Log Analytics, and other Microsoft services. It is a powerful and flexible language designed for working with large-scale data sets and is commonly used in scenarios involving log and telemetry data
+
 ## Lab scenario
-
 You are a Security Operations Analyst working at a company that is implementing Microsoft Sentinel. You are responsible for performing log data analysis to search for malicious activity, display visualizations, and perform threat hunting. To query log data, you use the Kusto Query Language (KQL).
-
->**Important:** This lab involves entering many KQL scripts into Microsoft Sentinel. The scripts were provided in a file at the beginning of this lab. An alternate location to download them is:  https://github.com/MicrosoftLearning/SC-200T00A-Microsoft-Security-Operations-Analyst/tree/master/Allfiles
 
 ## Lab objectives (Duration: 90 minutes)
  In this lab, you will perform the following:
