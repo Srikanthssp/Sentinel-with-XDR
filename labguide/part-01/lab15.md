@@ -1,10 +1,10 @@
 ## Lab 15 - Use Repositories in Microsoft Sentinel
 
+## Lab Overview
+Azure DevOps provides robust capabilities for Continuous Integration (CI) and Continuous Deployment (CD) pipelines. Organizations often use these pipelines to automate the deployment of their security configurations, analytics rules, and other artifacts related to Microsoft Sentinel
+
 ## Lab scenario
-
-You are a Security Operations Analyst working at a company that implemented Microsoft Sentinel. You already created Scheduled and Microsoft Security Analytics rules.  You need to centralize analytical rules in an Azure DevOps repository.  Then connect Sentinel to the Azure DevOps repository and import the content. 
-
->**Note:** An **[interactive lab simulation](https://mslabs.cloudguides.com/guides/SC-200%20Lab%20Simulation%20-%20Use%20repositories%20in%20Microsoft%20Sentinel)** is available that allows you to click through this lab at your own pace. You may find slight differences between the interactive simulation and the hosted lab, but the core concepts and ideas being demonstrated are the same.
+You are a Security Operations Analyst working at a company that implemented Microsoft Sentinel. You already created Scheduled and Microsoft Security Analytics rules.  You need to centralize analytical rules in an Azure DevOps repository. Then connect Sentinel to the Azure DevOps repository and import the content. 
 
 ## Lab objectives (Duration: 30 minutes)
  In this lab, you will Understand following:
