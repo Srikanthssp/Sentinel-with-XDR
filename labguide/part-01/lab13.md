@@ -1,7 +1,9 @@
 ## Lab 13 - Using Sentinel Training Lab 
 
-## Lab scenario
+## Lab Overview
+The Microsoft Sentinel Training Lab is a solution provided by Microsoft to help customers and partners get hands-on experience with Microsoft Sentinel, a cloud-native SIEM (Security Information and Event Management) solution. This lab is designed to simplify the onboarding process and provide users with a practical and interactive environment to explore Microsoft Sentinel features.
 
+## Lab scenario
 In this lab, you will walk through the process of creating a  Microsoft Sentinel Training Lab Solution. Microsoft Sentinel Training Lab can be used to get ramped up with Microsoft Sentinel and provide hands-on practical experience for product features, capabilities, and scenarios.
 
 ## Lab objectives (Duration: 30 minutes)
@@ -24,16 +26,17 @@ In this lab, you will complete the following task:
    
    ![Picture 1](../media/image_36.png)
 
-1. In the Basics tab, select the Subscription, Resource Group and select **sentinelworkspace**, provide the details for your existing workspace. *Optionally*, review the different tabs (Workbooks, Analytics, Hunting Queries, Watchlists, Playbooks) in the solution. click on **Review + create**.
+1. In the Basics tab, select the existing Subscription, Resource Group:**sentinel-rg** and select **sentinelworkspace**, provide the details for your existing workspace. *Optionally*, review the different tabs (Workbooks, Analytics, Hunting Queries, Watchlists, Playbooks) in the solution. click on **Review + create**.
 
    ![Picture 1](../media/image_38.png)
 
-    >**Note:** That the deployment process takes **about 15 minutes**, you need to make sure all the ingested data is ready for you to use once finished.
+1. Click on **Create**
+   
+    >**Note:** That the deployment process takes **about 15 minutes**.
+    
+1.  You will able to see those pre-recorded data ingested into the selected Microsoft Sentinel Workspace.
    
    ![Picture 1](../media/image_37.png)  
 
-
-
 ## Review
-In this lab, you will complete the following tasks:
-+ Using Sentinel Training Lab 
+In this lab, you have created Microsoft Sentinel Training lab Solution to explore Microsoft Sentinel features.
