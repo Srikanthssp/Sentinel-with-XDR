@@ -1,8 +1,10 @@
 ## Lab 12 - Configure Log Retention
 
-## Lab scenario
+## Lab Overview
+Log retention refers to the practice of storing and maintaining logs or records of events, activities, and data for a specific period. In the context of cybersecurity and information technology, log retention is crucial for various reasons, including compliance with regulations, forensic analysis, troubleshooting, and overall security management. 
 
-You are a Security Operations Analyst working at a company that is implementing Microsoft Sentinel. You are responsible for setting up the Microsoft Sentinel environment to meet the company requirement to minimize cost, meet compliance regulations, and provide the most manageable environment for your security team to perform their daily job responsibilities.
+## Lab scenario
+In this lab, you will configure log retention settings within Microsoft Sentinel to meet the company's requirements. The primary focus is on minimizing costs, ensuring compliance with regulations, and providing a manageable environment for the security team's daily responsibilities.
 
 ## Lab objectives (Duration: 10 minutes)
 
@@ -11,7 +13,7 @@ In this lab, you will complete the following tasks:
 
 ### Task 1: Configure Log Retention
 
-In this task, you will change the retention period for the SecurityEvent table.
+In this task, you will change the retention period for the SecurityEvent table. The specific steps involve navigating through Microsoft Sentinel and the Log Analytics workspace settings to locate the SecurityEvent table and adjust its retention period to 180 days. The objective is to strike a balance between compliance requirements and operational efficiency.
 
 1. In Microsoft Sentinel, select the **Settings** option in the *Configuration* area.
 
@@ -28,3 +30,6 @@ In this task, you will change the retention period for the SecurityEvent table.
 1. Select **Manage Table**.
 
 1. Select **180 days** for *Total retention period*. Then **Save**.
+
+## Review
+In this lab, you have completed configuring retention logs in Microsoft Sentinel.
