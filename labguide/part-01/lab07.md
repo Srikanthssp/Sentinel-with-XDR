@@ -1,8 +1,10 @@
 ## Lab 07 - Ingest Logs from Microsoft Purview
 
-## Lab scenario
+## Lab Overview
+Microsoft Purview is a data governance solution. It helps customers gain deep knowledge of all their data while maintaining control over its use. Data classification and sensitivity label logs from Microsoft Purview scans can be ingested and visualized through workbooks, analytical rules
 
-Microsoft Purview is a data governance solution. It helps customers gain deep knowledge of all their data while maintaining control over its use. In this lab, you will implement the setup for logging Microsoft Purview and direct the logs into a Security Information and Event Management (SIEM) platform for comprehensive security monitoring and analysis.
+## Lab scenario
+In this lab, you will implement the setup for logging Microsoft Purview and direct the logs into a Security Information and Event Management (SIEM) platform for comprehensive security monitoring and analysis.
 
 ## Lab objectives (Duration: 45 minutes)
 In this lab, you will complete the following tasks:
