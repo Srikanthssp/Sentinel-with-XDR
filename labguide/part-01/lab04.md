@@ -71,8 +71,8 @@ In this task, you will enable the plan for resources on which diagnostics you wa
     ![Picture 1](../media/sen-image1-lab4.png)
 
 1. Once Installed, you will find below two data connectors listed in the Data Connector page.
-      * Tenant-based Microsoft Defender for Cloud (Preview)
-      * Subscription-based Microsoft Defender for Cloud (Legacy)
+      * Tenant-based Microsoft Defender for Cloud (Preview) : It allows you to collect Defender for Cloud alerts over your entire tenant, without having to enable each subscription separately.
+      * Subscription-based Microsoft Defender for Cloud (Legacy) :  It allows you to collect Defender for Cloud alerts per subscription.
 
      ![Picture 1](../media/s41.png)
 1. Select **Subscription-based Microsoft Defender for Cloud (Legacy)** data connector.
@@ -81,15 +81,13 @@ In this task, you will enable the plan for resources on which diagnostics you wa
 
 1. In the details pane for the connector, select Open connector page.
 
-1. On the **Instructions** page, under configuration, select the subscription **check box** and click on **connect** to establish connection between  and sentinel.
+1. On the **Instructions** page, under configuration, you will find a note stating that "The connector can be enabled only on subscriptions that have at least one Microsoft Defender plan enabled in Microsoft Defender for Cloud, and only by users with Contributor permissions on the subscription". So, to ensure that we have enabled any defender plan, navigate to the Microsoft Defender plans and select **Enable all**, which will redirect to the defender plans page and ensure that at least one paid Microsoft Dender Plan is enabled, if not enable the suited defender plan by changing its status to **On** and click on **Save**.
      
-    ![Picture 1](../media/s42.png)
+    ![Picture 1](../media/s45.png)
 
-1. Select **Tenant-based Microsoft Defender for Cloud (Preview)** data connector.
+1. Navigate back to the connector page, select the subscription and click on **Connect**
 
-1. In the details pane for the connector, select Open connector page.
-
-1. 1. On the **Instructions** page, under configuration, click on **connect**, so that all your Microsoft Defender for Cloud subscriptions alerts will be sent to this Microsoft Sentinel workspace.
+    ![Picture 1](../media/s44.png)
 
 ### Task 4: View data ingested into Microsoft Sentinel
 
@@ -104,8 +102,6 @@ In this task, you will enable the plan for resources on which diagnostics you wa
 1. Scroll down and select **Go to log analytics**.
 
 1. In the query pane, run the default query, to view the activity data ingested into the workspace.
-
-1. Repeat the same steps above to check the logs of the **Tenant-based Microsoft Defender for Cloud (Preview)**
 
 ### Conclusion
 Upon completion, the organization achieves an elevated security posture with enhanced monitoring, threat detection, and efficient data analysis. The integration of Defender for Cloud and Sentinel aligns with the goal of maintaining a secure Azure environment.
