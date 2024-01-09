@@ -5,7 +5,7 @@
 Enabling Microsoft Defender for Cloud is a proactive measure to secure Azure resources, identify vulnerabilities, and respond to potential security threats. This process enhances the overall security posture and ensures compliance in the dynamic cloud computing landscape. Subsequently, onboarding on-premises servers extends the security framework to cover both Azure and local infrastructure.
 
 ## Lab scenario
-In this lab, you will setup Log ingestion from Microsoft Defender for Endpoint is to collect, process, and analyze security event logs from Microsoft Defender for Endpoint to enhance threat detection and response within the organization.
+In this lab, you will enable Microsoft Defender for Cloud on your Azure subscription, configure Defender plans, and seamlessly onboard on-premises Windows servers for enhanced security, threat detection, and compliance management across your hybrid cloud environment
 
 ## Lab objectives (Duration: 120 minutes)
 
@@ -70,6 +70,8 @@ In this task, you will be getting started with the functionality of Microsoft De
    
 ### Task 2: Onboard Servers to Defender for Cloud  
 After you connect Defender for Cloud to your Azure subscription, you can start connecting your on-premises machines from the Getting started page in Defender for Cloud.
+
+  >**Note**: In this lab, a pre-created virtual machine (LabVM) will be used to simulate an on-premises server for the onboarding process to Microsoft Defender for Cloud. This virtual machine represents an example of an on-premises Windows server in a controlled environment.
 
 1.  On Azure Portal page, in **Search resources, services and docs (G+/)** box at the top of the portal, enter **Microsoft Defender for Cloud**, and then select **Microsoft Defender for Cloud** under services.
 
